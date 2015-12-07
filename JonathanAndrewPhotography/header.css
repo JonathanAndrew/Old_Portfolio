@@ -1,0 +1,204 @@
+/*
+Project Name: Jonathan Andrew
+Client: Your Client
+Author: Jonathan Andrew
+Developer @GA in Seattle
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+     color: #fff;
+     background-color: #fff;
+     font-size: 25px;
+     font-family: Krona+One, Arial, sans-serif;
+}
+
+header {
+  background-image: url(../images/seattle.jpg);
+  background-size: cover;
+  height: 289px;
+  max-width: 1200px;
+  border: 10px solid #000;
+);
+
+}
+
+
+ header h1 {
+  font-weight: 400;
+  text-shadow: 3px -2px 0 #002244;
+  clear: right;
+  margin-right: 15px;
+  text-decoration: underline;
+  font-size: 49px;
+  float: right;
+  text-align: right;
+  max-width: 730px;
+  margin-top: 20px;
+  font-weight: 800;
+  max-height: 75px;
+  border: 5px solid #002244;
+  background-color: rgba(0,34,68, .8);
+  color: #69BE28;
+  padding: 0px 15px 25px 15px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+
+}
+
+
+
+#socialmedia img {
+  border-radius: 10px;
+  margin-left: 10px;
+  max-width: 60px;
+  max-height: 60px;
+  margin-top: 10px;
+  border: 3px solid #FFFFff;
+  background-color: #B22400;
+  box-shadow: 3px 3px rgba(0,34,68,.9);
+}
+
+#twelve img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 50px;
+  border: 2px solid #69BE28;
+  padding: 1px 1px 1px 1px;
+}
+
+
+nav ul {
+  margin: 0 10px 0 0;
+  float: right;
+  height: 60px;
+  display: inline-block;
+}
+
+
+#links a {
+  color: #fff;
+  margin: 0 auto;
+  text-decoration:none;
+  font-weight: 800;
+  text-shadow:
+    3px 3px 0 #002244,
+   -1px -1px 0 #002244,  
+    1px -1px 0 #002244,
+   -1px  1px 0 #002244,
+    1px  1px 0 #002244;
+
+}
+
+#socialmedia li {
+display: inline-block;
+text-decoration: none;
+}
+
+img:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#links button {
+    margin: 5px 0 0 50px;
+    height: 40px;
+    background-color: rgba(0,0,0,.5);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#links li{
+  text-decoration: none;
+  margin: 0 auto;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 5px 5px 5px;
+  font-size: 30px;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+

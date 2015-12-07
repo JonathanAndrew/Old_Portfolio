@@ -1,0 +1,468 @@
+/*
+Project Name: Jonathan Andrew
+Client: Your Client
+Author: Jonathan Andrew
+Developer @GA in Seattle
+*/
+
+
+/******************************************
+/* SETUP
+/*******************************************/
+
+/* Box Model Hack */
+* {
+     -moz-box-sizing: border-box; /* Firexfox */
+     -webkit-box-sizing: border-box; /* Safari/Chrome/iOS/Android */
+     box-sizing: border-box; /* IE */
+}
+
+/* Clear fix hack */
+.clearfix:after {
+     content: ".";
+     display: block;
+     clear: both;
+     visibility: hidden;
+     line-height: 0;
+     height: 0;
+}
+
+.clear {
+  clear: both;
+}
+
+.alignright {
+  float: right;
+  padding: 0 0 10px 10px; /* note the padding around a right floated image */
+}
+
+.alignleft {
+  float: left;
+  padding: 0 10px 10px 0; /* note the padding around a left floated image */
+}
+
+
+/******************************************
+/* BASE STYLES
+/*******************************************/
+
+body {
+    max-width: 1200px;
+    margin: 0 auto;
+     color: #fff;
+     background-color: #fff;
+     font-size: 25px;
+     font-family: Krona+One, Arial, sans-serif;
+}
+
+header {
+  background-image: url(../images/seattle.jpg);
+  background-size: cover;
+  height: 400px;
+  max-width: 1200px;
+  border: 10px solid #000;
+}
+
+
+ header h1 {
+  font-weight: 400;
+  text-shadow: 3px -2px 0 #002244;
+  clear: right;
+  margin-right: 15px;
+  text-decoration: underline;
+  font-size: 49px;
+  float: right;
+  text-align: right;
+  max-width: 730px;
+  margin-top: 20px;
+  font-weight: 800;
+  max-height: 75px;
+  border: 5px solid #002244;
+  background-color: rgba(0,34,68, .8);
+  color: #69BE28;
+  padding: 0px 15px 25px 15px;
+  margin-bottom: 0px;
+  border-radius: 5px;
+
+}
+
+
+
+#socialmedia img {
+  border-radius: 10px;
+  margin-left: 10px;
+  max-width: 60px;
+  max-height: 60px;
+  margin-top: 10px;
+  border: 3px solid #FFFFff;
+  background-color: #B22400;
+  box-shadow: 3px 3px rgba(0,34,68,.9);
+}
+
+#twelve img {
+  max-width: 50px;
+  max-height: 50px;
+  margin-left: 50px;
+  border: 2px solid #69BE28;
+  padding: 1px 1px 1px 1px;
+}
+
+
+nav ul {
+  margin: 0 10px 0 0;
+  float: right;
+  height: 60px;
+  display: inline-block;
+}
+
+
+#links a {
+  color: #fff;
+  margin: 0 auto;
+  text-decoration:none;
+  font-weight: 800;
+  text-shadow:
+    3px 3px 0 #002244,
+   -1px -1px 0 #002244,  
+    1px -1px 0 #002244,
+   -1px  1px 0 #002244,
+    1px  1px 0 #002244;
+
+}
+
+#socialmedia li {
+display: inline-block;
+text-decoration: none;
+}
+
+img:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+#links button {
+    margin: 5px 0 0 50px;
+    height: 40px;
+    background-color: rgba(0,0,0,.5);
+    font-size: 20px;
+    border-radius: 5px;
+}
+
+#links li{
+  text-decoration: none;
+  margin: 0 auto;
+  display: inline-block;
+  list-style-type: none;
+  padding: 0px 5px 5px 5px;
+  font-size: 30px;
+}
+
+button:hover {
+  background: #3cb0fd;
+  background-image: -webkit-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -moz-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -ms-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: -o-linear-gradient(top, #3cb0fd, #3498db);
+  background-image: linear-gradient(to bottom, #3cb0fd, #3498db);
+  text-decoration: none;
+}
+
+
+.section-box {
+  background-color: #002244;
+  border: 2px ridge #aaa;
+  margin-bottom: 10px;
+
+}
+
+
+.header {
+  height: 40px;
+  border-radius: 5px;
+  border: 5px groove black;
+}
+
+.upper-box {
+  border-radius: 5px;
+  margin: 15px 0 0 15px;
+  height: 280px;
+  float: right;
+  border: 5px solid black;
+}
+
+.upper-box-right {
+  border-radius: 5px;
+  margin: 15px 15px 0 60px;
+  height: 300px;
+  width: 370px;
+  float: left;
+  border: 5px solid black;
+}
+
+.upper-box-name {
+  border-radius: 5px;
+  margin: 15px 15px 0 0;
+  height: 85px;
+  width: 500px;
+  float: left;
+  border: 5px solid black;
+}
+
+.upper-box-middle {
+  float:left;
+  margin: 15px 0 0 65px;
+}
+
+.rectangle {
+  border-radius: 5px;
+  height: 60px;
+  border: 5px groove black;
+  
+}
+.middle-box {
+  border-radius: 5px;
+  height: 425px;
+  margin: 10px 0px 10px 0px;
+  border: 5px solid black;
+}
+
+
+.middle-box-right {
+  border-radius: 5px;
+  float: right;
+  height: 365px;
+  width: 650px;
+  margin: 25px 15px 0px 0px;
+  border: 5px solid black;
+  }
+
+.middle-box-low {
+  border-radius: 5px;
+  height: 60px;
+  margin: 32px 0px 5px 45px;
+  padding: 5px 0px 5px 0px;
+  border: 5px solid black;
+  float: left;
+  text-align: center;
+  max-width: 700px;
+}
+
+.middle-box-low h2 {
+  padding: 0 0 15px 0;
+}
+
+.middle-box-foot {
+  border-radius: 5px;
+  margin: 0 0 0 15px;
+  height: 150px;
+  border: 5px solid black;
+  max-width: 770px;
+  float: left;
+}
+
+aside.middle-box-uw{
+  
+}
+
+.right {
+  float: left;
+  border: 5px solid black;
+}
+
+#waterfall {
+  float: right;
+  padding: 5px 5px 5px 5px;
+  margin: 0 auto;
+  max-width: 400px;
+  max-height: 400px;
+  margin: 225px 30 35 0px;
+  border: 5px solid #000;
+  border-radius: 5px;
+}
+ img {
+  float: left;
+  max-height: 160px;
+  max-width: 160px;
+  border: 5px solid yellow;
+  border-radius: 5px;
+}
+
+a img {
+  text-align: center;
+  background-color: #000000;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+section {
+  float: left;
+  width: 285px;
+  text-align: right;
+}
+
+footer {
+  float: left;
+  margin-top: 10px;
+  margin: 0 auto;
+  height: 100px;
+}
+
+article {
+  float: right;
+  width: 345px;
+  text-align: left;
+  border: 5px solid #FFFAFA;
+}
+article h2 {
+  margin-left: 5px;
+  text-align: center;
+  margin: 0 auto;
+  max-width: 350px;
+  background: white;
+  padding: 5px 5px 5px 5px;
+  margin: 5px 5px 5px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+article img {
+  max-width: 350px;
+  max-height: 350px;
+  border: 5px solid #FFFAFA;
+  margin: 10px 5px 0 5px;
+}
+
+
+article h1 {
+  text-align: center;
+  color: #000;
+  background: white;
+  border: 2px solid #000000;
+  border-radius: 5px;
+  padding: 5px 5px 5px 5px;
+  margin: 10px 5px 0px 5px;
+}
+
+article h2 {
+    font-size: 20px;
+    color: #000;
+    margin-left: 5px;
+    text-align: center;
+    margin-top: 15px;
+    max-width: 350px;
+    background: white;
+    padding: 5px 5px 5px 5px;
+    margin: 5px 5px 5px 5px;
+    border: 2px solid black;
+    border-radius: 5px;
+}
+
+section h2 {
+  color: #000;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: left;
+  margin: 0px 5px 5px 5px;
+  padding: 0px 5px 5px 5px;
+  text-align: center;
+  font-size: 30px;
+  height: 40px;
+}
+
+h3 {
+  color: #000;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+  text-align: left;
+  margin: 5px 5px 5px 5px;
+  padding: 5px 5px 5px 5px;
+}
+
+aside h3 {
+  color: #000;
+  max-width: 650px;
+  font-size: 20px;
+  float: left;
+  margin-top: 10px;
+  border: 5px solid black;
+  border-radius: 5px;
+  max-height: 250px;
+  margin-bottom:5px;
+}
+
+
+h4 {
+  color: #000;
+  font-size: 20px;
+  max-width: 350px;
+  text-align: center;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+h5 {
+  color: #000;
+  font-size: 20px;
+  max-width: 250px;
+  text-align: center;
+  background-color: white;
+  border: 5px solid black;
+  border-radius: 5px;
+  margin: 0 auto;
+  margin-top: 10px;
+}
+
+nav h3 {
+  color: #000;
+  background-color: white;
+  padding: 5px 5px 5px 5px;
+  border: 2px solid black;
+  border-radius: 5px;
+}
+
+h6 {
+  color: #000;
+  text-align: center;
+  background-color: white;
+  border: 2px solid black;
+  border-radius: 5px;
+
+}
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* Center the container */
+#container {
+  width: 100%;
+  margin: auto;
+  height: 500px;
+
+}
+
+header {
+
+}
+
+footer {
+
+}
+
+/******************************************
+/* ADDITIONAL STYLES
+/*******************************************/
+
+
+
+
