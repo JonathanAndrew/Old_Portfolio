@@ -52,7 +52,7 @@ $('.links .resume').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 30 );
+  window.scrollTo(anchor.left, anchor.top - menu );
 
 
 });
@@ -67,7 +67,7 @@ $('.links .portfolio').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 50);
+  window.scrollTo(anchor.left, anchor.top - menu );
 
 
 });
@@ -86,7 +86,7 @@ $('.links .contact').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu -40);
+  window.scrollTo(anchor.left, anchor.top - menu );
   
 
 });
