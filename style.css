@@ -152,6 +152,11 @@ header {
       overflow: hidden;
     }
 
+#carousel-close-up a {
+  font-size: 2em;
+  font-weight: 800;
+}
+
 #carousel-abstract button{
   font-size: 2em;
   border: 2px solid #d4d4d4;
@@ -183,6 +188,11 @@ header {
     height: 410px;
     overflow: hidden;
   }
+
+#carousel-asymmetrical a {
+  font-size: 2em;
+  font-weight: 800;
+}
 
 #carousel ul{
       position: relative;
@@ -1046,6 +1056,10 @@ h6 {
 body {
   margin: 0 auto;
 }
+
+.hamburger-menu {
+display: none;
+}  
 
 
 .container.background#aboutMeBox {
