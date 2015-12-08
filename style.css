@@ -998,7 +998,7 @@ h6 {
 }
 }
   /**********************************************************************************/
-@media screen and (min-width: 1100px) and (max-width: 1280px){
+@media screen and (min-width: 1200px) and (max-width: 1300px){
 
 body {
   margin: 0 auto;
@@ -1157,187 +1157,9 @@ margin-top: 2%;
 
 }
   
-  /**********************************************************************************/
-@media screen and (min-width: 1100px){
-
-body {
-  margin: 0 auto;
-}
-
-button.hamburger-menu {
-  display: none;
-}
-
-.menu {
-  display: inline-block;
-}
-
-.links {
-  display: inline-block;
-}
-
  
-.container.background#aboutMeBox {
-  margin-left: 22%;
-  max-width: 700px;
-  height: 1310px;
-}
-
-
-#portfolioBox.container.background {
-  width: 1100px;
-}
-
-#contactBox.container.background {
-  width: 1000px;
-}
-
-
-#experience {
-  font-size: 1.5em;
-}
-
- .header.menu {
-  font-size: 1.3em;
-}
-
-.menu {
-  margin-left: 10%;
-}
-
- header h1 {
-  font-size: 2.5em;
-}
-header {
-    width: 100%;
-  }
-
-.banner {
-  height: 600px;
-  margin-top: 5%;
-    width: 100%;
-
-}
-#twelve img {
-  width: 5em;
-  height: 5em;
-  margin: 467px 0 5px 5px;
-}
-button.hamburger {
-  font-size: 3em;
-}
-.upper-box-about {
-  font-size: 1em;
-  height: 40px;
-}
-
-.upper-box-about {
-  width: 175px;
-  height: 51px;
-  font-size: 1.5em;
-}
-
- h1 {
-  font-size: 1.5em;
-}
-
-.upper-box-name {
-  font-size: 1.5em;
-  width: 430px;
-  height: 52px;
-}
-
-.upper-box-me img {
-  width: 400px;
-}
-
-.upper-box-me {
-  width: 405px;
-  float: left;
-  margin-left: 8%;
-  margin-bottom: 2%;
-}
-
-.upper-box-middle-hi h2 {
-  font-size: 2.8em;
-}
-
-
-.upper-box-middle-hi {
-  margin-top: 8%;
-  width: 475px;
-  float: right;
-  margin-left: 0px;
-  margin-right: 5%;
-}
-
-.upper-box-middle-passions {
-  margin-top: 2%;
-  margin: 0 auto;
-  clear: both;
-  width: 775px;
-  height: 51px;
-
-}
-
-#waterfall {
-  width: 400px;
-}
-
-.upper-box-waterfall {
-  width: 405px;
-  margin: 0 auto;
-  margin-top: 2%
-}
-
-.middle-box-low {
-width: 200px;
-margin: 0 auto;
-  margin-top: 2%
-}
-
-.middle-box-foot {
-  margin: 0 auto;
-  margin-top: 2%
-}
-
-.middle-box-foot-minor {
-  margin: 0 auto;
-  margin-top: 2%
-}
-
-.middle-box-foot-uw {
-  margin: 0 auto;
-  margin-top: 2%
-}
-
-.middle-box-right {
-  margin: 0 auto;
-  margin-top: 2%;
-  width: 1000px;
-}
-
-.middle-box-right h3 {
-  font-size: 19px;
-}
-
-.since-graduating h2 {
-  font-weight: 400;
-  font-size: 1.3em;
-}
-
-.image {
-  width: 500px;
-  height: 400px;
-}
-.upper-box-summary h3 {
-  font-size: 1.5em;
-}
-
-
-}
   /**********************************************************************************/
-@media screen and (min-width: 1200px) and (max-width: 1300px){
+@media screen and (min-width: 1301px) and (max-width: 1559px){
 body {
   margin: 0 auto;
 }
@@ -1486,7 +1308,7 @@ margin-left: 36%;
 }
 
   /**********************************************************************************/
-@media screen and (min-width: 1301px) and (max-width: 1560px){
+@media screen and (min-width: 1560px){
 
 #portfolioBox.container.background {
   margin: 0 auto;
@@ -1530,27 +1352,4 @@ header {
   margin: 467px 0 5px 5px;
 }
 }
-    /**********************************************************************************/
-@media screen and (min-width: 1561px){
-
-
-button.hamburger-menu {
-  display: none;
-}
-
-.menu {
-  display: block;
-}
-
-.links {
-  display: inline-block;
-}
-  
-  header {
-  width: 1561px;
-}
-
-.banner {
-  width: 1561px;
-}
-}
+    
