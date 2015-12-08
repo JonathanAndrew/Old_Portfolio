@@ -152,6 +152,18 @@ header {
       overflow: hidden;
     }
 
+#carousel-abstract button{
+  font-size: 2em;
+  border: 2px solid #d4d4d4;
+  border-radius: 5px;
+  font-weight: 800;
+  font-size: 2em;
+}
+
+#portfolioBox#carousel-abstract a:link {
+  text-decoration: none;
+  color: #000;
+}
 
 #carousel-abstract{
       padding-top: 20px;
