@@ -1070,7 +1070,7 @@ display: none;
 
 
 #portfolioBox.container.background {
-  width: 800px;
+  width: 100%;
 }
 
 #contactBox.container.background {
