@@ -78,7 +78,7 @@ Developer @GA in Seattle
   header h1 {
     margin-left: 25px;
     margin-bottom: 0px;
-    font-size: 3em;
+    font-size: 3.5em;
     line-height: 1;
   }
 
@@ -105,7 +105,7 @@ Developer @GA in Seattle
   background:none;
   color: #fff;
   border:0;
-  font-size:3em;
+  font-size:5em;
   font-weight:bold;
   cursor:pointer;
 }
@@ -235,7 +235,7 @@ label {
 
 .banner {
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 55px;
   width: 95%;
   text-align: right;
   background: url(images/seattle.JPG) center no-repeat;
@@ -318,7 +318,7 @@ footer {
 }
 
 #socialmedia li {
-margin-top: 2%;
+margin-top: 4%;
 margin-right: 2%;
 display: inline-block;
 text-decoration: none;
@@ -1179,7 +1179,7 @@ margin-top: 2%;
 
 }
   /**********************************************************************************/
-@media screen and (min-width: 900px) and (max-width: 999px){
+@media screen and (min-width: 900px) and (max-width: 1009px){
 
 body {
   margin: 0 auto;
@@ -1212,18 +1212,6 @@ body {
   margin-left: 10%;
 }
 
-header h1 {
-  font-size: 2.5em;
-}
-
-
-.banner {
-  height: 500px;
-  margin: 0 auto;
-  margin-top: 25px;
-    width: 95%;
-
-}
 #twelve img {
   width: 4em;
   height: 4em;
@@ -1329,13 +1317,15 @@ margin-top: 2%;
 
 }
   /**********************************************************************************/
-@media screen and (min-width: 1000px) and (max-width: 1099px){
+@media screen and (min-width: 1010px) and (max-width: 1099px){
 
 body {
   margin: 0 auto;
 }
 
-  
+.hamburger-menu {
+display: none;
+}  
 
 #aboutMeBox.container.background {
   margin-left: 15%;
@@ -1372,11 +1362,6 @@ body {
     width: 100%;
   }
 
-.banner {
-  margin: 0 auto;
-  margin-top: 25px;
-  width: 95%;
-}
 
 #twelve img {
   width: 5em;
@@ -1480,10 +1465,6 @@ body {
   margin: 0 auto;
 }
 
-
-.hamburger-menu {
-display: none;
-} 
 
 .container.background#aboutMeBox {
   margin-left: 22%;
