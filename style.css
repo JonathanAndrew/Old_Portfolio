@@ -172,6 +172,11 @@ header {
       overflow: hidden;
     }
 
+#carousel-abstract a{
+  font-size: 2em;
+  font-weight: 800;
+}
+
   #carousel-asymmetrical{
     padding-top: 20px;
     width: auto;
@@ -302,7 +307,7 @@ footer {
   list-style-type: none;
   display: inline-block;
   color: #fff;
-  font-size: 2em;
+  font-size: 3em;
   margin-right: 5px;
 }
 
