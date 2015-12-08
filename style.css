@@ -71,9 +71,9 @@ Developer @GA in Seattle
   
 
   header h1 {
-    margin-top: 0px;
+    margin-left: 25px;
     margin-bottom: 0px;
-    font-size: 2em;
+    font-size: 3em;
     line-height: 1;
   }
 
@@ -82,15 +82,15 @@ Developer @GA in Seattle
   }
   
   .menu {
+    margin: 0 auto;
     display: inline-block;
   }
 
   .header.menu.hide {
-    margin: 0 auto;
-    font-size: 1.2em;
+    margin-right: 5px;
+    font-size: 2.0em;
     text-align: center;
     margin: 0 auto;
-    margin-top: 17px;
   }
 
   button.hamburger-menu {
@@ -105,6 +105,10 @@ Developer @GA in Seattle
   cursor:pointer;
 }
 
+.image {
+  width: 500px;
+  height: 400px;
+}
 
 
 header {
@@ -112,7 +116,7 @@ header {
   top: 0;
   width: 100%;
   margin-bottom: 0px;
-  height: 75px;
+  min-height: 75px;
   background-color: #002244;
   color: white;
 }
@@ -203,8 +207,12 @@ label {
 }
 
 .links a {
-  color: #fff;
-  font-size: 1.2em;
+  font-weight: 800;
+  padding: 1% 1%;
+  color: #000;
+  background-color: rgba(255,255,255,.7);
+  border-radius: 5px;
+  border: 2px solid #fff;
   text-decoration: none;
   margin-right: 5px;
 }
@@ -212,7 +220,8 @@ label {
 
 
 .banner {
-   margin: 0 auto;
+  margin: 0 auto;
+  margin-top: 15px;
   width: 95%;
   text-align: right;
   background: url(images/seattle.JPG) center no-repeat;
@@ -804,9 +813,6 @@ a img {
   border-radius: 5px;
 }
 
-section {
-    
-}
 
 footer {
   float: left;
@@ -988,27 +994,19 @@ h6 {
   border: none;
 }
 
+@media screen and (min-width: 600px) and (max-width: 799px){
 
+  .banner {
+    min-height: 375px;
+  }
+}
 
-/**********************************************************************************/
-/
   /**********************************************************************************/
 @media screen and (min-width: 800px) and (max-width: 899px){
 
 body {
   margin: 0 auto;
 }
-
-
-.links {
-  display: inline-block;
-}
-.menu {
-  display: block;
-}
-
-
-  
 
 
 .container.background#aboutMeBox {
@@ -1039,16 +1037,9 @@ header h1 {
   font-size: 2.5em;
 }
 
-#links {
-  font-size: 1.5em
-}
-
-.logo {
-  font-size: 2.5em;
-}
 
 .menu {
-  margin-left: 5%;
+  margin: 0 auto;
 }
 
  header {
@@ -1057,9 +1048,11 @@ header h1 {
 
 .banner {
   margin: 0 auto;
+  margin-top: 15px;
   width: 95%;
-  margin-top: 4%;
+  max-height: 375px;
 }
+
 #twelve img {
   width: 4em;
   height: 4em;
@@ -1199,7 +1192,7 @@ header h1 {
 .banner {
   height: 500px;
   margin: 0 auto;
-  margin-top: 4%;
+  margin-top: 25px;
     width: 95%;
 
 }
@@ -1358,12 +1351,11 @@ header h1 {
   }
 
 .banner {
-  height: 600px;
   margin: 0 auto;
-  margin-top: 4%;
-    width: 95%;
-
+  margin-top: 25px;
+  width: 95%;
 }
+
 #twelve img {
   width: 5em;
   height: 5em;
@@ -1511,8 +1503,6 @@ header {
   }
 
 .banner {
-  height: 600px;
-  margin-top: 5%;
     width: 100%;
 
 }
@@ -1654,12 +1644,6 @@ button.hamburger-menu {
 }
 
 
-
-.image {
-  width: 500px;
-  height: 400px;
-}
-
 .container.background#aboutMeBox {
   margin-left: 25%;
   max-width: 700px;
@@ -1701,7 +1685,7 @@ header {
 .banner {
   height: 600px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 25px;
   width: 1200px;
 
 }
@@ -1818,7 +1802,7 @@ header {
 .banner {
   height: 600px;
   margin: 0 auto;
-  margin-top: 5%;
+  margin-top: 20px;
   width: 1200px;
 }
 
