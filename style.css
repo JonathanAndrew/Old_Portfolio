@@ -50,6 +50,11 @@ Developer @GA in Seattle
 }
 
 
+.menu.shownav {
+  display: inline-block;
+}
+
+
 /******************************************
 /* BASE STYLES
 /*******************************************/
@@ -83,10 +88,10 @@ Developer @GA in Seattle
   
   .menu {
     margin: 0 auto;
-    display: inline-block;
+    display:none;
   }
 
-  .header.menu.hide {
+  .header.menu{
     margin-right: 5px;
     font-size: 2.0em;
     text-align: center;
@@ -201,18 +206,15 @@ label {
   list-style-type: none;
   color: #fff;
   font-size: 1.2em;
-  display: none;
   margin: 0 auto;
   font-size: 1.2em;
+  display: inline-block;
 }
 
 .links a {
+
   font-weight: 800;
-  padding: 1% 1%;
-  color: #000;
-  background-color: rgba(255,255,255,.7);
-  border-radius: 5px;
-  border: 2px solid #fff;
+  color: #fff;
   text-decoration: none;
   margin-right: 5px;
 }
@@ -271,7 +273,25 @@ footer {
   color: #fff;
 }
 
+#portfolioBox ul {
+  color: #fff;
+}
+#portfolioBox a:link {
+  text-decoration: none;
+  color: #fff;
+}
 
+#portfolioBox a:visited {
+  color: #d4d4d4;
+}
+
+#portfolioBox li {
+  list-style-type: none;
+  display: inline-block;
+  color: #fff;
+  font-size: 2em;
+  margin-right: 5px;
+}
 
 #socialmedia img {
   float: right;
@@ -746,6 +766,7 @@ ul#slider{
 }
 
 .slider {
+  z-index: -1;
   margin-left: 5%;
   max-width: 900px; /* Update to your slider width */
   height: 700px; /* Update to your slider height */
@@ -1029,9 +1050,6 @@ body {
   font-size: 1.3em;
 }
 
-.header.menu {
-  font-size: 1.3em;
-}
 
 header h1 {
   font-size: 2.5em;
@@ -1176,9 +1194,6 @@ body {
   font-size: 1.3em;
 }
 
-.header.menu {
-  font-size: 1.3em;
-}
 
 .menu {
   margin-left: 10%;
@@ -1334,9 +1349,6 @@ body {
   font-size: 1.5em;
 }
 
-.header.menu {
-  font-size: 1.3em;
-}
 
 .menu {
   margin-left: 10%;
@@ -1459,10 +1471,6 @@ body {
 }
 
 
-.menu {
-  display: block;
-}
-
 .hamburger-menu {
 display: none;
 } 
@@ -1487,9 +1495,6 @@ display: none;
   font-size: 1.5em;
 }
 
- .header.menu {
-  font-size: 1.3em;
-}
 
 .menu {
   margin-left: 10%;
@@ -1667,9 +1672,6 @@ button.hamburger-menu {
   font-size: 1.5em;
 }
 
-.header.menu {
-  font-size: 1.3em;
-}
 
 .menu {
   margin-left: 18%;
@@ -1820,9 +1822,6 @@ button.hamburger-menu {
   display: none;
 }
 
-.menu {
-  display: block;
-}
 
 .links {
   display: inline-block;

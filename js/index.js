@@ -19,10 +19,12 @@ function hideNav(){
   }
 }
 
+$('.menu').addClass('hidenav');
+
 $( '.hamburger-menu' ).click(function() {
   event.preventDefault();
-  hideNav();
-    $( '.links' ).css('display' , 'inline-block');
+  // hideNav();
+    $( '.menu' ).toggleClass('shownav');
 
 });
 
@@ -67,7 +69,7 @@ $('.links .portfolio').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu );
+  window.scrollTo(anchor.left, anchor.top - menu - 35);
 
 
 });
@@ -86,7 +88,7 @@ $('.links .contact').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 75 );
+  window.scrollTo(anchor.left, anchor.top - menu - 35 );
   
 
 });
