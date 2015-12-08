@@ -145,6 +145,57 @@ header {
   height: 400px;
 }
 
+.nature-iamge {
+  width: auto;
+  height: 345px;
+}
+
+.other-image {
+  width: auto;
+  height: 345px;
+}
+
+
+#carousel-nature{
+      padding-top: 20px;
+      margin: 0 auto;
+      width: 500px;
+      height: 400px;
+      overflow: hidden;
+    }
+
+#carousel-nature a {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+#carousel-other{
+      padding-top: 20px;
+      margin: 0 auto;
+      width: 500px;
+      height: 400px;
+      overflow: hidden;
+    }
+
+#carousel-other a {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+#carousel-wedding{
+      padding-top: 20px;
+      margin: 0 auto;
+      width: 550px;
+      height: 380px;
+      overflow: hidden;
+    }
+
+#carousel-wedding a {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+
 #carousel-close-up{
       padding-top: 20px;
       margin: 0 auto;
@@ -186,6 +237,19 @@ header {
   }
 
 #carousel-asymmetrical a {
+  font-size: 2em;
+  font-weight: 800;
+}
+
+ #carousel-kids{
+    padding-top: 20px;
+    margin: 0 auto;
+    width: 600px;
+    height: 400px;
+    overflow: hidden;
+  }
+
+#carousel-kids a {
   font-size: 2em;
   font-weight: 800;
 }

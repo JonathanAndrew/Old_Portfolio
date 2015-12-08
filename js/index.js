@@ -114,7 +114,7 @@ $('#close').click(function(){
   event.preventDefault();
 //function to change background image
 
-  var category = ['Abstract','Close-up','Asymmetrical','Kids','Other'];
+  var category = ['Abstract','Close-up','Asymmetrical','Kids', 'Nature' ,'Wedding', 'Other' , ];
 
   for (i = 0; i < category.length; i++) { 
     $('#submit-btn').append('<option value="' + category[i] + '">' + category[i] + '</option>')
@@ -138,6 +138,10 @@ $('#close').click(function(){
       $('#carousel-abstract').slideToggle();
       $('#carousel-close-up').hide();
       $('#carousel-asymmetrical').hide();
+          $('#carousel-kids').hide(); 
+      $('#carousel-other').hide(); 
+      $('#carousel-wedding').hide(); 
+      $('#carousel-nature').hide(); 
       
       }
 
@@ -146,6 +150,10 @@ $('#close').click(function(){
       $('#carousel-close-up').slideToggle();
        $('#carousel-abstract').hide();
       $('#carousel-asymmetrical').hide();
+        $('#carousel-kids').hide(); 
+      $('#carousel-other').hide(); 
+      $('#carousel-wedding').hide(); 
+      $('#carousel-nature').hide(); 
       }
 
     else if(currentCategory== "Asymmetrical") {
@@ -153,15 +161,58 @@ $('#close').click(function(){
       $('#carousel-asymmetrical').slideToggle(); 
        $('#carousel-close-up').hide();
       $('#carousel-abstract').hide();
+       $('#carousel-kids').hide(); 
+      $('#carousel-other').hide(); 
+      $('#carousel-wedding').hide(); 
+      $('#carousel-nature').hide(); 
       }
 
     else if(currentCategory== "Kids" ) {
-      $('body').css('background-image' , "url(images/austin.jpg)");
+       $('.slider').hide();
+      $('#carousel-kids').slideToggle(); 
+       $('#carousel-close-up').hide();
+      $('#carousel-abstract').hide();
+      $('#carousel-asymmetrical').hide();
+       $('#carousel-nature').hide(); 
+      $('#carousel-other').hide(); 
+      $('#carousel-wedding').hide(); 
       }
 
-    else if(currentCategory== "Other" ) {
-      $('body').css('background-image' , "url(images/sydney.jpg)");
+    else if(currentCategory== "Nature" ) {
+       $('.slider').hide();
+      $('#carousel-nature').slideToggle(); 
+       $('#carousel-close-up').hide();
+      $('#carousel-abstract').hide();
+      $('#carousel-asymmetrical').hide();
+      $('#carousel-kids').hide(); 
+      $('#carousel-other').hide(); 
+      $('#carousel-wedding').hide(); 
+
       }
+
+    else if(currentCategory== "Wedding" ) {
+           $('.slider').hide();
+          $('#carousel-wedding').slideToggle(); 
+           $('#carousel-close-up').hide();
+          $('#carousel-abstract').hide();
+          $('#carousel-asymmetrical').hide();
+          $('#carousel-kids').hide();
+           $('#carousel-nature').hide(); 
+           $('#carousel-other').hide();  
+          }
+
+      else if(currentCategory== "Other" ) {
+       $('.slider').hide();
+      $('#carousel-other').slideToggle(); 
+       $('#carousel-close-up').hide();
+      $('#carousel-abstract').hide();
+      $('#carousel-asymmetrical').hide();
+      $('#carousel-kids').hide();
+       $('#carousel-nature').hide(); 
+       $('#carousel-wedding').hide(); 
+      }
+
+     
   }
 
 
@@ -308,6 +359,222 @@ $(function(){
 
 $(function(){
       var carousel = $('#carousel-asymmetrical ul');
+      var carouselChild = carousel.find('li');
+      var clickCount = 0;
+      
+      itemWidth = carousel.find('li:first').width()+1; //Including margin
+
+      //Set Carousel width so it won't wrap
+      carousel.width(itemWidth*carouselChild.length);
+
+      //Place the child elements to their original locations.
+      refreshChildPosition();
+      
+      //Set the event handlers for buttons.
+      $('.btnNext').click(function(){
+        clickCount++;
+        
+        //Animate the slider to left as item width 
+        carousel.finish().animate({
+          left : '-='+itemWidth
+        },300, function(){
+          //Find the first item and append it as the last item.
+          lastItem = carousel.find('li:first');
+          lastItem.remove().appendTo(carousel);
+          lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
+        });
+      });
+      
+      $('.btnPrevious').click(function(){
+        clickCount--;
+        //Find the first item and append it as the last item.
+        lastItem = carousel.find('li:last');
+        lastItem.remove().prependTo(carousel);
+
+        lastItem.css('left', itemWidth*clickCount);       
+        //Animate the slider to right as item width 
+        carousel.finish().animate({
+          left: '+='+itemWidth
+        },300);
+      });
+
+      function refreshChildPosition(){
+        carouselChild.each(function(){
+          $(this).css('left', itemWidth*carouselChild.index($(this)));
+        });
+      }
+      
+      function refreshChildPositionNext(){
+        carouselChild.each(function(){
+          leftVal =  parseInt($(this).css('left'));
+        });
+      }
+    });
+
+$(function(){
+      var carousel = $('#carousel-kids ul');
+      var carouselChild = carousel.find('li');
+      var clickCount = 0;
+      
+      itemWidth = carousel.find('li:first').width()+1; //Including margin
+
+      //Set Carousel width so it won't wrap
+      carousel.width(itemWidth*carouselChild.length);
+
+      //Place the child elements to their original locations.
+      refreshChildPosition();
+      
+      //Set the event handlers for buttons.
+      $('.btnNext').click(function(){
+        clickCount++;
+        
+        //Animate the slider to left as item width 
+        carousel.finish().animate({
+          left : '-='+itemWidth
+        },300, function(){
+          //Find the first item and append it as the last item.
+          lastItem = carousel.find('li:first');
+          lastItem.remove().appendTo(carousel);
+          lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
+        });
+      });
+      
+      $('.btnPrevious').click(function(){
+        clickCount--;
+        //Find the first item and append it as the last item.
+        lastItem = carousel.find('li:last');
+        lastItem.remove().prependTo(carousel);
+
+        lastItem.css('left', itemWidth*clickCount);       
+        //Animate the slider to right as item width 
+        carousel.finish().animate({
+          left: '+='+itemWidth
+        },300);
+      });
+
+      function refreshChildPosition(){
+        carouselChild.each(function(){
+          $(this).css('left', itemWidth*carouselChild.index($(this)));
+        });
+      }
+      
+      function refreshChildPositionNext(){
+        carouselChild.each(function(){
+          leftVal =  parseInt($(this).css('left'));
+        });
+      }
+    });
+
+$(function(){
+      var carousel = $('#carousel-nature ul');
+      var carouselChild = carousel.find('li');
+      var clickCount = 0;
+      
+      itemWidth = carousel.find('li:first').width()+1; //Including margin
+
+      //Set Carousel width so it won't wrap
+      carousel.width(itemWidth*carouselChild.length);
+
+      //Place the child elements to their original locations.
+      refreshChildPosition();
+      
+      //Set the event handlers for buttons.
+      $('.btnNext').click(function(){
+        clickCount++;
+        
+        //Animate the slider to left as item width 
+        carousel.finish().animate({
+          left : '-='+itemWidth
+        },300, function(){
+          //Find the first item and append it as the last item.
+          lastItem = carousel.find('li:first');
+          lastItem.remove().appendTo(carousel);
+          lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
+        });
+      });
+      
+      $('.btnPrevious').click(function(){
+        clickCount--;
+        //Find the first item and append it as the last item.
+        lastItem = carousel.find('li:last');
+        lastItem.remove().prependTo(carousel);
+
+        lastItem.css('left', itemWidth*clickCount);       
+        //Animate the slider to right as item width 
+        carousel.finish().animate({
+          left: '+='+itemWidth
+        },300);
+      });
+
+      function refreshChildPosition(){
+        carouselChild.each(function(){
+          $(this).css('left', itemWidth*carouselChild.index($(this)));
+        });
+      }
+      
+      function refreshChildPositionNext(){
+        carouselChild.each(function(){
+          leftVal =  parseInt($(this).css('left'));
+        });
+      }
+    });
+
+$(function(){
+      var carousel = $('#carousel-other ul');
+      var carouselChild = carousel.find('li');
+      var clickCount = 0;
+      
+      itemWidth = carousel.find('li:first').width()+1; //Including margin
+
+      //Set Carousel width so it won't wrap
+      carousel.width(itemWidth*carouselChild.length);
+
+      //Place the child elements to their original locations.
+      refreshChildPosition();
+      
+      //Set the event handlers for buttons.
+      $('.btnNext').click(function(){
+        clickCount++;
+        
+        //Animate the slider to left as item width 
+        carousel.finish().animate({
+          left : '-='+itemWidth
+        },300, function(){
+          //Find the first item and append it as the last item.
+          lastItem = carousel.find('li:first');
+          lastItem.remove().appendTo(carousel);
+          lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
+        });
+      });
+      
+      $('.btnPrevious').click(function(){
+        clickCount--;
+        //Find the first item and append it as the last item.
+        lastItem = carousel.find('li:last');
+        lastItem.remove().prependTo(carousel);
+
+        lastItem.css('left', itemWidth*clickCount);       
+        //Animate the slider to right as item width 
+        carousel.finish().animate({
+          left: '+='+itemWidth
+        },300);
+      });
+
+      function refreshChildPosition(){
+        carouselChild.each(function(){
+          $(this).css('left', itemWidth*carouselChild.index($(this)));
+        });
+      }
+      
+      function refreshChildPositionNext(){
+        carouselChild.each(function(){
+          leftVal =  parseInt($(this).css('left'));
+        });
+      }
+    });
+
+$(function(){
+      var carousel = $('#carousel-wedding ul');
       var carouselChild = carousel.find('li');
       var clickCount = 0;
       
