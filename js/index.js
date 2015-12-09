@@ -54,7 +54,7 @@ $('.links .resume').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu );
+  window.scrollTo(anchor.left, anchor.top - menu -35 );
 
 
 });
@@ -69,7 +69,7 @@ $('.links .portfolio').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 35);
+  window.scrollTo(anchor.left, anchor.top - menu - 55);
 
 
 });
@@ -88,7 +88,7 @@ $('.links .contact').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 35 );
+  window.scrollTo(anchor.left, anchor.top - menu - 75 );
   
 
 });
@@ -98,6 +98,7 @@ $('.since-graduating a').click(function(){
   $('.since-graduating a').addClass('hide');
   $('#myStory').slideDown();
   $('#close').removeClass('hide');
+  $('.container.background').css('height','4500px');
 });
 
 $('#close').click(function(){
