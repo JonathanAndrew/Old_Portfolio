@@ -34,6 +34,7 @@ $('.links .about').click(function( event ) {
   $('#resumeBox').hide();
   $('#portfolioBox').hide();
   $('#contactBox').hide();
+  $('.mission-statment').hide();
   var menu = $('header').height();
   var href = $(this).attr('href');
   var anchor = $(href).offset();
@@ -51,6 +52,7 @@ $('.links .resume').click(function( event ) {
 	$('#aboutMeBox').hide();
 	$('#portfolioBox').hide();
   $('#contactBox').hide();
+  $('.mission-statment').hide();
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
@@ -66,6 +68,7 @@ $('.links .portfolio').click(function( event ) {
 	$('#resumeBox').hide();
 	$('#aboutMeBox').hide();
   $('#contactBox').hide();
+  $('.mission-statment').hide();
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
@@ -85,6 +88,7 @@ $('.links .contact').click(function( event ) {
   $('#portfolioBox').hide();
   $('#resumeBox').hide();
   $('#aboutMeBox').hide();
+  $('.mission-statment').hide();
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
