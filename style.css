@@ -309,7 +309,7 @@ label {
   margin-top: 55px;
   width: 95%;
   text-align: right;
-  background: url(images/seattle.JPG) center no-repeat;
+  background: url(images/seattle.jpeg) center no-repeat;
   background-size: cover;
   min-height: 250px;
   overflow: hidden;
@@ -401,7 +401,7 @@ text-decoration: none;
   width: 3em;
   height: 3em;
   background-color: #fff:;
-  margin: 150px 0 0 5px;
+  margin: 250px 0 0 15px;
   border: 2px solid #69BE28;
 }
 
@@ -432,7 +432,7 @@ text-decoration: none;
   margin: 0 auto;
   margin-top: 2%;
   box-shadow: 2px 2px rgba(0,0,0,.3);
-  width: 325px;
+  width: 500px;
   border-radius: 5px;
   border: 3px solid #69BE28;
 }
@@ -604,7 +604,7 @@ text-decoration: none;
   margin-top: 2%;
   box-shadow: 2px 2px rgba(0,0,0,.3);
   border-radius: 5px;
-  width: 550px;
+  width: 604px;
   border: 2px solid #69BE28;
   }
 
@@ -1003,6 +1003,12 @@ section h2 {
   color: #000;
 }
 
+.since-graduating h2 {
+  text-indent: 5%;
+  font-weight: 400;
+  font-size: 1.5em;
+}
+
 .since-graduating a{
   font-weight: 800;
   font-size: 1.5em;
@@ -1123,7 +1129,7 @@ h6 {
 }
 
   /**********************************************************************************/
-@media screen and (min-width: 800px) and (max-width: 899px){
+@media screen and (min-width: 870px) and (max-width: 1009px){
 
 body {
   margin: 0 auto;
@@ -1185,7 +1191,7 @@ button.hamburger {
 }
 
 .upper-box-about {
-  width: 300px;
+  width: 175px;
   font-size: 1.3em;
   height: 45px;
 }
@@ -1204,16 +1210,17 @@ button.hamburger {
 
 .upper-box-me {
   float: left;
-  margin-left: 5%;
+  margin-left: 3%;
   margin-bottom: 2%;
 }
 
 .upper-box-middle-hi {
   margin-top: 6%;
+  margin-right: 2%;
+  margin-bottom: 2%;
   font-size: 1.2em;
   float: right;
   margin-left: 0px;
-  margin-right: 7%;
 }
 
 .upper-box-middle-passions {
@@ -1253,7 +1260,7 @@ margin-top: 2%;
 .middle-box-right {
   margin: 0 auto;
   margin-top: 2%;
-  width: 600px;
+  width: 606px;
 }
 
 .middle-box-right h3 {
@@ -1263,150 +1270,9 @@ margin-top: 2%;
   width: 500px;
   height: 400px;
 }
-.upper-box-summary h3 {
-  font-size: 1.4em;
-}
-
-
-}
-  /**********************************************************************************/
-@media screen and (min-width: 900px) and (max-width: 1009px){
-
-body {
-  margin: 0 auto;
-}
-
-.hamburger-menu {
-  display: none;
-}
-
-.container.background {
-  height: 1310px;
-  width: 100%;
-}
-
-
-#portfolioBox .container.background{
-  width: 900px;
-}
-
-#contactBox.container.background {
-  width: 900px;
-}
-
-#experience {
-  font-size: 1.3em;
-}
-
-
-.menu {
-  margin-left: 10%;
-}
-
-#twelve img {
-  width: 4em;
-  height: 4em;
-  margin: 372px 0 5px 5px;
-}
-button.hamburger {
-  font-size: 3em;
-}
-.upper-box-about {
-  font-size: 1.3em;
-  height: 45px;
-}
-
- h1 {
-  font-size: 1.5em;
-}
-
-.upper-box-name {
-  font-size: 1.5em;
-  width: 430px;
-  height: 52px;
-}
-
-.upper-box-me img {
-  width: 350;
-}
-
-
-.upper-box-me {
-  float: left;
-  width: 355;
-  margin-left: 8%;
-  margin-bottom: 2%;
-}
-
-.upper-box-middle-hi {
-  margin-top: 11%;
-  font-size: 1.2em;
-  width: 380px;
-  float: right;
-  margin-right: 5%;
 
 }
 
-.upper-box-middle-passions {
-  margin: 0 auto;
-  margin-top: 2%;
-  clear: both;
-  width: 800px;
-  height: 51px;
-
-}
-
-.upper-box-waterfall {
-  width: 405px;
-  margin: 0 auto;
-  margin-top: 2%;
-}
-
-#waterfall {
-  width: 400px;
-  height: 300px;
-}
-
-.middle-box-low {
-width: 200px;
-margin: 0 auto;
-margin-top: 2%;
-}
-
-.middle-box-foot {
-  margin: 0 auto;
-  margin-top: 2%;
-}
-
-.middle-box-foot-minor {
-  margin: 0 auto;
-  margin-top: 2%;
-}
-
-.middle-box-foot-uw {
-  margin: 0 auto;
-  margin-top: 2%;
-}
-
-.middle-box-right {
-   margin: 0 auto;
-  margin-top: 2%;
-  width: 860px;
-}
-
-.middle-box-right h3 {
-  font-size: 19px;
-}
-.image {
-  width: 500px;
-  height: 400px;
-}
-.upper-box-summary h3 {
-  font-size: 1.4em;
-}
-
-
-}
   /**********************************************************************************/
 @media screen and (min-width: 1010px) and (max-width: 1099px){
 
@@ -1494,7 +1360,7 @@ button.hamburger {
   float: right;
   margin-left: 0px;
   margin-top: 10%;
-  margin-right: 12%;
+  margin-right: 6%;
 }
 
 .upper-box-middle-passions {
@@ -1534,7 +1400,7 @@ width: 200px;
 .middle-box-right {
   margin: 0 auto;
   margin-top: 2%;
-  width: 600px;
+  width: 606px;
 }
 
 .middle-box-right h3 {
@@ -1686,7 +1552,7 @@ margin: 0 auto;
 .middle-box-right {
   margin: 0 auto;
   margin-top: 2%;
-  width: 1000px;
+  width: 900px;
 }
 
 .middle-box-right h3 {
@@ -1778,7 +1644,8 @@ header {
 
 
 .upper-box-about {
-  font-size: 1.5em;
+  font-size: 2em;
+  width: 205px;
   
 }
 
@@ -1788,13 +1655,18 @@ header {
 
 .upper-box-name {
   font-size: 1.5em;
-  width: 350px;
+  width: 450px;
 }
 
+article img {
+  width: 400px;
+}
 
 .upper-box-me {
   float: left;
-  margin-left: 2%;
+  width: 406px;
+  margin-left: 10%;
+  margin-bottom: 2%;
 }
 
 .upper-box-middle-hi {
@@ -1802,42 +1674,55 @@ header {
   font-size: 1.2em;
   float: right;
   margin-left: 0px;
-  margin-right: 1%;
+  margin-right: 6%;
 }
 
 .upper-box-middle-passions {
   margin-top: 2%;
+  margin-bottom: 2%;
   clear: both;
-  width: 600px;
+  width: 720px;
 
 
 }
 
+#waterfall {
+  width: 600px;
+  height: 400px;
+}
+
 .upper-box-waterfall {
-  margin-left: 30%;
+  width: 605px;
+  height: 405px;
+  margin: 0 auto;
+  
 }
 
 .middle-box-low {
 width: 200px;
-margin-left: 36%;
+margin: 0 auto;
+margin-top: 2%;
 }
 
 .middle-box-foot {
-  margin-left: 23%;
+margin: 0 auto;
+margin-top: 2%;
 }
 
 .middle-box-foot-minor {
-  margin-left: 33%;
+margin: 0 auto;
+margin-top: 2%;
 }
 
 .middle-box-foot-uw {
-  margin-left: 23%;
+margin: 0 auto;
+margin-top: 2%;
 }
 
 .middle-box-right {
-  float: left;
-  margin-left: 8%;
-  width: 600px;
+  margin: 0 auto;
+  margin-top: 2%;
+  width: 900px;
 }
 
 .middle-box-right h3 {
@@ -1856,6 +1741,11 @@ margin-left: 36%;
   width: 1300px;
 }
 
+.middle-box-right {
+    margin: 0 auto;
+    margin-top: 2%;
+    width: 1000px;
+}
 
 header h1 {
   font-size: 3em;
@@ -1899,6 +1789,11 @@ header {
 
 button.hamburger-menu {
   display: none;
+}
+
+.upper-box-about {
+  font-size: 2em;
+  width: 200px;
 }
 
 
