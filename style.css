@@ -1930,7 +1930,7 @@ button.hamburger-menu {
 }
 
 header h1 {
-  font-size: 2.5em;
+  font-size: 3.5em;
 }
 
 header {
@@ -1961,22 +1961,22 @@ header {
 }
 
 article img {
-  width: 400px;
+  width: 500px;
 }
 
 .upper-box-me {
   float: left;
-  width: 406px;
-  margin-left: 5%;
+  width: 506px;
+  margin-left: 8%;
   margin-bottom: 2%;
 }
 
 .upper-box-middle-hi {
-  margin-top: 5%;
+  margin-top: 8%;
   font-size: 1.2em;
   float: right;
   margin-left: 0px;
-  margin-right: 1%;
+  margin-right: 5%;
 }
 
 .upper-box-middle-hi h2 {
