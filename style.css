@@ -339,6 +339,7 @@ footer {
   font-family: 'Open+Sans';
   font-size: 1.5em;
   margin: 0 auto;
+  margin-top: 25%;
   width: 750px;
   text-align: center;
 }
@@ -1172,7 +1173,7 @@ display: none;
 #twelve img {
   width: 4em;
   height: 4em;
-  margin:300px 0 5px 5px;
+  margin: 250px 0 5px 5px;
 }
 button.hamburger {
   display: none;
