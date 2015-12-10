@@ -499,14 +499,29 @@ text-decoration: none;
   height: auto;
 }
 
+.upper-box-summary.title  {
+    font-weight: 800;
+    text-decoration: underline;
+    margin-top: 0px;
+    margin-bottom: 0px;
+    font-size: 2.5em;
+    color: #000;
+    text-align: center;
+    background-color: #fff;
+    padding: 2% 2%;
+}
 
 .upper-box-summary h2 {
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
-  font-size: 20px;
+  font-size: 30px;
   border: none;
   border-radius: none;
   background-color: none;
 
+}
+
+.specialties h2 {
+  font-size: 20px;
 }
 
 
@@ -961,17 +976,6 @@ article h1 {
 
 }
 
-.title {
-    font-weight: 800;
-    text-decoration: underline;
-    margin-top: 0px;
-    margin-bottom: 0px;
-    font-size: 1.85em;
-    color: #000;
-    text-align: center;
-    background-color: #fff;
-    padding: 2% 2%;
-}
 
 section h2 {
   font-family: Helvetica, Arial, sans-serif;
@@ -1400,7 +1404,7 @@ width: 200px;
   height: 400px;
 }
 .upper-box-summary h3 {
-  font-size: 1.5em;
+  font-size: 2.2em;
 }
 
 }
@@ -1553,7 +1557,7 @@ margin: 0 auto;
   height: 400px;
 }
 .upper-box-summary h3 {
-  font-size: 1.5em;
+  font-size:2.2em;
 }
 }
   /**********************************************************************************/
@@ -1710,7 +1714,7 @@ margin-top: 2%;
   font-size: 19px;
 }
 .upper-box-summary h3 {
-  font-size: 1.6em;
+  font-size: 2.2em;
 }
 }
 
@@ -1871,7 +1875,7 @@ margin-top: 2%;
   font-size: 19px;
 }
 .upper-box-summary h3 {
-  font-size: 1.6em;
+  font-size: 2.2em;
 }
 }
 
@@ -2032,6 +2036,6 @@ margin-top: 2%;
   font-size: 19px;
 }
 .upper-box-summary h3 {
-  font-size: 1.6em;
+  font-size: 2.2em;
 }
 }
