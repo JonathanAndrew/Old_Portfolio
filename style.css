@@ -78,7 +78,7 @@ Developer @GA in Seattle
   header h1 {
     margin-left: 2%;
     margin-bottom: 0px;
-    font-size: 3.5em;
+    font-size: 4em;
     line-height: 1;
   }
 
@@ -94,9 +94,11 @@ Developer @GA in Seattle
   .header.menu{
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     margin-right: 5px;
-    font-size: 2.5em;
     text-align: center;
-    margin: 0 auto;
+  }
+
+  button.hamburger-menu span { 
+    font-size: .5em;
   }
 
   button.hamburger-menu {
@@ -334,9 +336,8 @@ label {
 .links {
   list-style-type: none;
   color: #fff;
-  font-size: 1.2em;
+  font-size: 3.5em;
   margin: 0 auto;
-  font-size: 1.2em;
   display: inline-block;
 }
 
