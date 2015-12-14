@@ -25,7 +25,10 @@ $( '.hamburger-menu' ).click(function() {
   event.preventDefault();
   // hideNav();
     $( '.menu' ).toggleClass('shownav');
-
+    $('.banner').css('margin-top', '200px');
+$('.hamburger-menu').click(function(){
+    $('.banner').css('margin-top' , '166px');
+});
 });
 
 $('.links .about').click(function( event ) {
