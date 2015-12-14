@@ -76,7 +76,6 @@ Developer @GA in Seattle
   
 
   header h1 {
-    min-width: 800px;
     margin-left: 2%;
     margin-bottom: 0px;
     font-size: 6em;
@@ -389,7 +388,6 @@ footer {
   font-size: 1.8em;
   margin: 0 auto;
   margin-top: 10%;
-  width: 750px;
   text-align: center;
 }
 
@@ -476,7 +474,6 @@ text-decoration: none;
 
 .upper-box-middle-hi h2 {
   text-align: center;
-  width: 613px;
   font-family: 'Cabin', Helvetica, Arial, sans-serif;
   color: #fff;
   margin: 0 auto;
@@ -492,8 +489,7 @@ text-decoration: none;
   border-radius: 5px;
   margin: 0 auto;
   margin-top: 2%;
-  width: 700px;
-  height: 51px;
+  height: 88px;
   border: 2px solid #69BE28;
 }
 
@@ -511,7 +507,7 @@ text-decoration: none;
   box-shadow: 2px 2px rgba(0,0,0,.3);
   border-radius: 5px;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 3%;
   width: 405px;
   border: 3px solid #69BE28;
 }
@@ -658,7 +654,6 @@ text-decoration: none;
   margin-top: 2%;
   box-shadow: 2px 2px rgba(0,0,0,.3);
   border-radius: 5px;
-  width: 604px;
   border: 2px solid #69BE28;
   }
 
@@ -688,7 +683,6 @@ text-decoration: none;
   box-shadow: 2px 2px rgba(0,0,0,.3);
   border-radius: 5px;
   border: 3px solid #69BE28;
-  width: 515px;
   margin: 0 auto;
   margin-top: 2%;
 }
@@ -995,7 +989,6 @@ footer {
 }
 
 article {
-  width: 740px;
   border: 5px solid #FFFAFA;
 }
 
@@ -1167,6 +1160,27 @@ h6 {
   border: none;
 }
 
+@media screen and (min-width: 515px) and (max-width: 714px){
+  .middle-box-foot {
+    width: 515px;
+  }
+  }
+
+@media screen and (min-width: 715px) and (max-width: 869px){
+
+.upper-box-middle-passions {
+  height: 50px;
+}
+
+ .middle-box-foot {
+    width: 515px;
+  }
+
+.middle-box-right {
+  width: 605px;
+}
+
+}
 
   /**********************************************************************************/
 @media screen and (min-width: 870px) and (max-width: 1009px){
@@ -1205,6 +1219,7 @@ display: none;
 .menu {
   margin: 0 auto;
 }
+
 
  header {
     width: 100%;
@@ -1272,6 +1287,7 @@ margin-top: 2%;
 .middle-box-foot {
   margin: 0 auto;
   margin-top: 2%;
+  width: 515px;
 }
 
 .middle-box-foot-minor {
@@ -1314,6 +1330,10 @@ margin-top: 2%;
 
 body {
   margin: 0 auto;
+}
+
+.mission-statment {
+  width: 700px;
 }
 
 .hamburger-menu {
@@ -1420,6 +1440,7 @@ width: 200px;
 .middle-box-foot {
    margin: 0 auto;
   margin-top: 2%;
+  width: 515px;
 }
 
 .middle-box-foot-minor {
@@ -1461,6 +1482,9 @@ body {
   margin: 0 auto;
 }
 
+.mission-statment {
+  width: 700px;
+}
 
 .container.background#aboutMeBox {
   margin-left: 22%;
@@ -1572,6 +1596,7 @@ margin: 0 auto;
 .middle-box-foot {
   margin: 0 auto;
   margin-top: 2%;
+  width: 515px;
 }
 
 .middle-box-foot-minor {
@@ -1630,7 +1655,7 @@ button.hamburger-menu {
 }
 
 .container.background {
-  height: 1800px;
+  width: 95%;
 }
 
 .container.background#aboutMeBox {
@@ -1639,20 +1664,24 @@ button.hamburger-menu {
 }
 
 .container.background#resumeBox {
-  width: 1200px;
+  width: 95%;
 
 }
 
 #portfolioBox.container.background {
-  width: 1200px;
+  width: 95%;
 }
 
 .container.background#contactBox {
-  width: 1200px;
+  width: 95%;
 }
 
 #experience {
   font-size: 1.5em;
+}
+
+.mission-statment {
+  width: 700px;
 }
 
 
@@ -1772,7 +1801,9 @@ body {
     padding-top: 0px;
 }
 
-
+.mission-statment {
+  width: 700px;
+}
 
 button.hamburger-menu {
   display: none;
@@ -1798,16 +1829,16 @@ button.hamburger-menu {
 }
 
 .container.background#resumeBox {
-  width: 1200px;
+  width: 95%;
 
 }
 
 #portfolioBox.container.background {
-  width: 1200px;
+  width: 95%;
 }
 
 .container.background#contactBox {
-  width: 1200px;
+  width: 95%;
 }
 
 #experience {
@@ -1879,6 +1910,7 @@ article img {
   margin-bottom: 2%;
   clear: both;
   width: 720px;
+  height: 50px;
 }
 
 #waterfall {
@@ -1976,6 +2008,10 @@ button.hamburger-menu {
   font-size: 1.5em;
 }
 
+.mission-statment {
+  width: 700px;
+}
+
 
 .menu {
   margin-left: 18%;
@@ -2040,6 +2076,7 @@ article img {
   margin-bottom: 2%;
   clear: both;
   width: 720px;
+  height: 50px;
 }
 
 #waterfall {
