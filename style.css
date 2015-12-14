@@ -59,11 +59,13 @@ Developer @GA in Seattle
 /* BASE STYLES
 /*******************************************/
  html {
+  min-width: 705px;
   background-color: #002244;
   height: auto;
  }
 
  body {
+  min-width: 705px;
   padding-top: 75px;
     font-size: 10px;
     line-height: 1.5;
@@ -76,6 +78,7 @@ Developer @GA in Seattle
   
 
   header h1 {
+    min-width: 705px;
     margin-left: 2%;
     margin-bottom: 0px;
     font-size: 6em;
@@ -87,6 +90,7 @@ Developer @GA in Seattle
   }
   
   .menu {
+    min-width: 705px;
     margin: 0 auto;
     display:none;
   }
@@ -95,6 +99,7 @@ Developer @GA in Seattle
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     margin: 0 auto;
     text-align: center;
+    font-size: 1em;
   }
 
   button.hamburger-menu {
@@ -121,6 +126,7 @@ header {
   margin-bottom: 0px;
   width: 100%;
   min-height: 75px;
+  min-width: 805px;
   background-color: #002244;
   color: white;
 }
