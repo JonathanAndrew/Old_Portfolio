@@ -109,11 +109,11 @@ Developer @GA in Seattle
   cursor:pointer;
 }
 
-/*.image {
+.image {
   width: 500px;
   height: 400px;
 }
-*/
+
 
 header {
   position: fixed;
@@ -133,7 +133,10 @@ width:100%;
   padding: 2% 3%;
 }
 
-/*#*/
+.abstract-image {
+  width: auto;
+  height: 340px;
+}
 
 .close-up-image.starbucks {
   width: 460px;
@@ -244,7 +247,7 @@ width:100%;
 }
 
 #carousel-other a:hover {
-  background-color: #69BE28;
+  background-color: #ffff99;
 }
 
 #carousel-wedding{
@@ -303,16 +306,11 @@ width:100%;
   color: #000;
 }
 
-.abstract-image {
-  width: 600px;
-  height: 350px;
-}
-
 #carousel-abstract{
       padding-top: 20px;
       margin: 0 auto;
-      width: 600px;
-      height:400px;
+      width: 500px;
+      height: 400px;
       overflow: hidden;
     }
 
@@ -1379,10 +1377,10 @@ margin-top: 2%;
   width: 700px;
 }
 
-/*.image {
+.image {
   width: 500px;
   height: 400px;
-}*/
+}
 
 .banner {
   height: 400px;
@@ -1535,10 +1533,10 @@ width: 200px;
 .middle-box-right h3 {
   font-size: 19px;
 }
-/*.image {
+.image {
   width: 500px;
   height: 400px;
-}*/
+}
 .upper-box-summary h3 {
   font-size: 2.2em;
 }
@@ -1697,10 +1695,10 @@ margin: 0 auto;
   font-size: 1.8em;
 }
 
-/*.image {
+.image {
   width: 500px;
   height: 400px;
-}*/
+}
 .upper-box-summary h3 {
   font-size:2.2em;
 }
