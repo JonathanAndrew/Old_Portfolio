@@ -78,7 +78,7 @@ Developer @GA in Seattle
   header h1 {
     margin-left: 2%;
     margin-bottom: 0px;
-    font-size: 4em;
+    font-size: 6em;
     line-height: 1;
   }
 
@@ -336,7 +336,7 @@ label {
 .links {
   list-style-type: none;
   color: #fff;
-  font-size: 3.5em;
+  font-size: 4.5em;
   margin: 0 auto;
   display: inline-block;
 }
