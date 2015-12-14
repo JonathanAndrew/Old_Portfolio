@@ -76,6 +76,7 @@ Developer @GA in Seattle
   
 
   header h1 {
+    min-width: 800px;
     margin-left: 2%;
     margin-bottom: 0px;
     font-size: 6em;
@@ -118,11 +119,16 @@ Developer @GA in Seattle
 header {
   position: fixed;
   top: 0;
-  width: 100%;
   margin-bottom: 0px;
+  width: 100%;
   min-height: 75px;
   background-color: #002244;
   color: white;
+}
+
+.container {
+width:100%;
+height: 600px;
 }
 
 .head-container {
