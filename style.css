@@ -127,7 +127,6 @@ header {
 
 .container {
 width:100%;
-height: 600px;
 }
 
 .head-container {
@@ -214,8 +213,18 @@ height: 600px;
     }
 
 #carousel-nature a {
-  font-size: 2em;
+  background-color: rgba(255,255,255,.5);
+  padding: 1% 2%;
+  text-decoration: underline;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-right: 20px;
+  font-size: 3em;
   font-weight: 800;
+}
+
+#carousel-nature a:hover {
+  background-color: #ffff99;
 }
 
 #carousel-other{
@@ -227,8 +236,18 @@ height: 600px;
     }
 
 #carousel-other a {
-  font-size: 2em;
+  background-color: rgba(255,255,255,.5);
+  padding: 1% 2%;
+  text-decoration: underline;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-right: 20px;
+  font-size: 3em;
   font-weight: 800;
+}
+
+#carousel-other a:hover {
+  background-color: #ffff99;
 }
 
 #carousel-wedding{
@@ -239,9 +258,23 @@ height: 600px;
       overflow: hidden;
     }
 
+#carousel-wedding a:hover {
+  background-color: #ffff99;
+}
+
 #carousel-wedding a {
-  font-size: 2em;
+  background-color: rgba(255,255,255,.5);
+  padding: 1% 2%;
+  text-decoration: underline;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-right: 20px;
+  font-size: 3em;
   font-weight: 800;
+}
+
+#carousel-wedding a:hover {
+  background-color: #ffff99;
 }
 
 
@@ -254,10 +287,19 @@ height: 600px;
     }
 
 #carousel-close-up a {
-  font-size: 2em;
+  background-color: rgba(255,255,255,.5);
+  padding: 1% 2%;
+  text-decoration: underline;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-right: 20px;
+  font-size: 3em;
   font-weight: 800;
 }
 
+#carousel-close-up a:hover {
+  background-color: #ffff99;
+}
 
 #portfolioBox#carousel-abstract a:link {
   text-decoration: none;
@@ -273,8 +315,18 @@ height: 600px;
     }
 
 #carousel-abstract a{
-  font-size: 2em;
-  font-weight: 800;
+    background-color: rgba(255,255,255,.5);
+    padding: 1% 2%;
+    text-decoration: underline;
+    border-radius: 5px;
+    border: 2px solid #fff;
+    margin-right: 20px;
+    font-size: 3em;
+    font-weight: 800;
+}
+
+#carousel-abstract a:hover {
+  background-color: #ffff99;
 }
 
   #carousel-asymmetrical{
@@ -286,8 +338,18 @@ height: 600px;
   }
 
 #carousel-asymmetrical a {
-  font-size: 2em;
+  background-color: rgba(255,255,255,.5);
+  padding: 1% 2%;
+  text-decoration: underline;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-right: 20px;
+  font-size: 3em;
   font-weight: 800;
+}
+
+#carousel-asymmetrical a:hover {
+  background-color: #ffff99;
 }
 
  #carousel-kids{
@@ -299,8 +361,18 @@ height: 600px;
   }
 
 #carousel-kids a {
-  font-size: 2em;
+  background-color: rgba(255,255,255,.5);
+  padding: 1% 2%;
+  text-decoration: underline;
+  border-radius: 5px;
+  border: 2px solid #fff;
+  margin-right: 20px;
+  font-size: 3em;
   font-weight: 800;
+}
+
+#carousel-kids a:hover {
+  background-color: #ffff99;
 }
 
 #carousel ul{
@@ -374,7 +446,6 @@ footer {
 
 .container.background {
   margin: 0 auto;
-  background-color: rgba(0,0,0,.4);
   width: 95%;
   background-size: cover;
   height: 1750px;
@@ -413,11 +484,16 @@ footer {
 }
 
 #portfolioBox ul {
+  text-align: center;
   color: #fff;
 }
 #portfolioBox a:link {
   text-decoration: none;
   color: #fff;
+}
+
+#portfolioBox a:hover {
+  color: #000;
 }
 
 #portfolioBox a:visited {
@@ -913,8 +989,8 @@ ul#slider{
 .slider {
   z-index: -1;
   margin: 0 auto;
-  max-width: 900px; /* Update to your slider width */
-  height: 700px; /* Update to your slider height */
+  width: 505px; /* Update to your slider width */
+  height: 405px; /* Update to your slider height */
   position: relative;
   overflow: hidden;
 }
@@ -927,11 +1003,6 @@ ul#slider{
 }
 
 #submit-btn {
-  float: left;
-  margin-left: 5%;
-  margin-right: 5%;
-  margin-top: 3%;
-  margin-bottom: 3%;
   background: #fff;
   color: #000;
   font-size: 2em;
@@ -943,11 +1014,11 @@ ul#slider{
   width: 315px;
   height: 48px;
   line-height: 74px;
-  vertical-align: middle;
   box-shadow: #111 0 0 50px;
   font-family: helvetica, arial, sans-serif;
   cursor: pointer;
 }
+4
 #submit-btn:hover {
   background: #fff600;
 }
