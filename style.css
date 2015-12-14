@@ -97,10 +97,6 @@ Developer @GA in Seattle
     text-align: center;
   }
 
-  button.hamburger-menu span { 
-    font-size: .5em;
-  }
-
   button.hamburger-menu {
   float: right;
   margin-right: 2%;
@@ -108,7 +104,7 @@ Developer @GA in Seattle
   background:none;
   color: #fff;
   border:0;
-  font-size:5em;
+  font-size:7em;
   font-weight:bold;
   cursor:pointer;
 }
