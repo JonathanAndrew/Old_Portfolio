@@ -1,5 +1,6 @@
 $(document).ready(function() {
-
+  
+  $(window).scrollTop(0);
 
 //options( 1 - ON , 0 - OFF)  
         var auto_slide = 1;  
