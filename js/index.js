@@ -14,23 +14,26 @@ $(document).ready(function() {
 
 
 
-function hideNav(){
-  if ($('.hamburger-menu').css('display') != 'inline-block') {
-    $('.links').slideUp();
-  }
-}
-
-$('.menu').addClass('hidenav');
+// function hideNav(){
+//   if ($('.hamburger-menu').css('display') == 'block') {
+//     $('.menu').removeClass('shownav');
+//   }
+// }
 
 $( '.hamburger-menu' ).click(function() {
   event.preventDefault();
   // hideNav();
-    $( '.menu' ).toggleClass('shownav');
+  $('.hamburger-menu').hide();
+  $( '.menu' ).addClass('shownav');
+
+    
 });
 
 $('.links .about').click(function( event ) {
 	event.preventDefault();
   $('#aboutMeBox').show();
+  $('.menu').hide();
+  $('.home').removeClass('hide');
   $('#resumeBox').hide();
   $('#portfolioBox').hide();
   $('#contactBox').hide();
@@ -40,7 +43,7 @@ $('.links .about').click(function( event ) {
   var anchor = $(href).offset();
   console.log(menu,anchor);
   window.scrollTo(anchor.left, anchor.top - menu );
-  window.scrollTo(0, anchor.top - menu);
+  window.scrollTo(0, anchor.top - menu );
   
 
 });
@@ -49,6 +52,8 @@ $('.links .about').click(function( event ) {
 $('.links .resume').click(function( event ) {
 	event.preventDefault();
 	$('#resumeBox.container.background').show();
+  $('.menu').hide();
+  $('.home').removeClass('hide');
 	$('#aboutMeBox').hide();
 	$('#portfolioBox').hide();
   $('#contactBox').hide();
@@ -56,7 +61,7 @@ $('.links .resume').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 80 );
+  window.scrollTo(anchor.left, anchor.top - menu +190 );
 
 
 });
@@ -64,15 +69,18 @@ $('.links .resume').click(function( event ) {
 $('.links .portfolio').click(function( event ) {
 	event.preventDefault();
 	$('#portfolioBox.container').show();
+  $('.menu').hide();
+  $('.home').removeClass('hide');
   $('#submit-btn').hide();
 	$('#resumeBox').hide();
 	$('#aboutMeBox').hide();
   $('#contactBox').hide();
   $('.mission-statment').hide();
+  $('footer').removeClass('hide');
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 135);
+  window.scrollTo(anchor.left, anchor.top - menu - 110 );
 
 
 });
@@ -85,6 +93,8 @@ $('#portfolioBox ul .photography').click(function(){
 $('.links .contact').click(function( event ) {
   event.preventDefault();
   $('#contactBox.container').show();
+  $('.menu').hide();
+  $('.home').removeClass('hide');
   $('#portfolioBox').hide();
   $('#resumeBox').hide();
   $('#aboutMeBox').hide();
@@ -92,7 +102,7 @@ $('.links .contact').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 65 );
+  window.scrollTo(anchor.left, anchor.top - menu - 85 );
   
 
 });

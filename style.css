@@ -50,9 +50,6 @@ Developer @GA in Seattle
 }
 
 
-.menu.shownav {
-  display: block;
-}
 
 
 /******************************************
@@ -74,13 +71,30 @@ Developer @GA in Seattle
 
   }
 
+.menu.shownav {
+  display: block;
+}
+
+.home:hover {
+  color:#69BE28 ;
+}
+
+.home {
+  font-weight: 800;
+  float: right;
+  margin-right: 2%;
+  text-decoration: none;
+  font-size: 2em;
+  color: #fff;
+}
+
   header h1 a:hover {
     color:#69BE28;
   }
 
 
   header h1 {
-    float: left;
+    /*float: left;*/
     margin-left: 2%;
     margin-bottom: 0px;
     font-size: 5em;
@@ -93,34 +107,39 @@ Developer @GA in Seattle
   }
   
   .menu {
-    min-width: 705px;
     margin: 0 auto;
     display:none;
   }
 
-.menu ul {
-  margin-top: 6%;
+
+.links a:visited {
+  color:#69BE28;
 }
 
 .links a:hover {
-    color:#69BE28;
+    color:#002244;
     text-decoration: underline;
   }
 
+
+
   .header.menu{
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
-    margin: 0 auto;
     text-align: center;
     font-size: 1em;
   }
 
+  button.hamburger-menu:hover {
+    color: #69BE28;
+  }
+
   button.hamburger-menu {
   float: right;
-  margin-top: 2%;
-  display: block;
+  border: none;
+  margin-top: 0px;
+  padding-top: 0px;
   background:none;
   color: #fff;
-  border:0;
   font-size:7em;
   font-weight:bold;
   cursor:pointer;
@@ -153,7 +172,7 @@ footer {
 }
 
 footer h6 {
-  margin-top: 0px;
+  margin-top: 11%;
   margin-bottom: 0px;
 }
 
@@ -439,11 +458,22 @@ label {
 
 
 .links {
+  -webkit-box-shadow: 10px 10px 0px 0px rgba(105,190,40,1);
+  -moz-box-shadow: 10px 10px 0px 0px rgba(105,190,40,1);
+  box-shadow: 10px 10px 0px 0px rgba(105,190,40,1);
+  color: rgb(255, 255, 255);
+  font-size: 50px;
+  background-color: rgb(85, 147, 194);
+  text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
+  background-color: #A5ACAF;
+  border: 2px solid #fff;
+  width: 100%;
   list-style-type: none;
   color: #fff;
   font-size: 3.5em;
   margin: 0 auto;
-  display: inline-block;
+  margin-top: 15px;
+  letter-spacing: 2px;
 }
 
 .links a {
@@ -451,14 +481,14 @@ label {
   font-weight: 800;
   color: #fff;
   text-decoration: none;
-  margin-right: 5px;
+  margin-top: 0px;
 }
 
 
 
 .banner {
   margin: 0 auto;
-  margin-top: 120px;
+  margin-top: 200px;
   width: 95%;
   text-align: right;
   background: url(images/seattle.jpeg) center no-repeat;
@@ -1257,10 +1287,6 @@ nav h3 {
 .middle-box-right {
   width: 605px;
 }
-
-.header.menu {
-  margin-top: 10%;
-}
 }
 
   /**********************************************************************************/
@@ -1270,9 +1296,6 @@ body {
   margin: 0 auto;
 }
 
-.hamburger-menu {
-margin-right: 2%;
-}  
 
 
 .container.background#aboutMeBox {
@@ -1306,19 +1329,12 @@ margin-right: 2%;
     width: 100%;
   }
 
-.header.menu {
-  margin-top: 10%;
-}
-
 #twelve img {
   width: 4em;
   height: 4em;
   margin: 250px 0 5px 5px;
 }
 
-button.hamburger-menu {
-  margin-right: 2%;
-}
 
 .upper-box-about {
   width: 175px;
@@ -1398,9 +1414,6 @@ body {
   width: 700px;
 }
 
-.hamburger-menu {
-margin-right: 2%;
-}  
 
 #aboutMeBox.container.background {
   margin-left: 15%;
@@ -1410,7 +1423,7 @@ margin-right: 2%;
 
 
 #portfolioBox.container.background {
-  width: 1200px;
+  width: 100%;
 }
 
 #contactBox.container.background {
@@ -1427,19 +1440,9 @@ margin-right: 2%;
   font-size: 1.5em;
 }
 
-
-.menu {
-  margin-left: 10%;
-}
-
-
  header {
     width: 100%;
   }
-
-.header.menu {
-  margin-top: 10%;
-}
 
 #twelve img {
   width: 5em;
@@ -1564,17 +1567,10 @@ body {
 }
 
 
-.menu {
-  margin-left: 10%;
-}
-
 header {
     width: 100%;
   }
 
-.header.menu {
-  margin-top: 10%;
-}
 
 .banner {
     width: 98%;
@@ -1587,9 +1583,6 @@ header {
   margin: 467px 0 5px 5px;
 }
 
-button.hamburger-menu {
-  margin-right: 5%;
-}
 
 .upper-box-about {
   font-size: 1em;
@@ -1735,11 +1728,6 @@ body {
   width: 700px;
 }
 
-
-.header.menu {
-  margin-top: 10%;
-}
-
 header h1 {
   font-size: 5em;
 }
@@ -1747,9 +1735,9 @@ header h1 {
 header {
     width: 100%;
   }
+
 .banner{
     height: 500px;
-    margin-top: 120px;
 }
 
 #twelve img {
@@ -1764,9 +1752,6 @@ header {
   width: 205px;
 }
 
-button.hamburger-menu {
-  margin-right: 5%;
-}
 
  h1 {
   font-size: 1.5em;
@@ -1856,11 +1841,6 @@ body {
     padding-top: 0px;
 }
 
-.links {
-  margin: 0 auto;
-  display: inline-block;
-  
-}
 
 .mission-statment {
   width: 700px;
@@ -1870,13 +1850,20 @@ button.hamburger-menu {
   display: none;
 }
 
-.menu {
-  display: block;
+.links {
+    display: inline;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #002244;
+    border: none;
+    box-shadow: none;
 }
 
-.links {
+.header.menu {
   display: inline-block;
+  margin-top: 0px;
 }
+
 
 .container.background {
   height: 1850px;
@@ -1895,7 +1882,7 @@ button.hamburger-menu {
 }
 
 #portfolioBox.container.background {
-  width: 95%;
+  width: 100%;
 }
 
 .container.background#contactBox {
@@ -1906,10 +1893,6 @@ button.hamburger-menu {
   font-size: 1.5em;
 }
 
-
-.menu {
-  margin-left: 18%;
-}
 
 header h1 {
   font-size: 5em;
@@ -1923,7 +1906,6 @@ header {
 .banner {
     height: 550px;
     margin: 0 auto;
-    margin-top: 144px;
     width: 95%;
 }
 
@@ -2040,7 +2022,12 @@ button.hamburger-menu {
 }
 
 .links {
-  display: inline-block;
+    display: inline;
+    margin: 0 auto;
+    margin-top: 0px;
+    background-color: #002244;
+    border: none;
+    box-shadow: none;
 }
 
 .container.background {
@@ -2060,7 +2047,7 @@ button.hamburger-menu {
 }
 
 #portfolioBox.container.background {
-  width: 1200px;
+  width: 100%;
 }
 
 .container.background#contactBox {
@@ -2076,22 +2063,18 @@ button.hamburger-menu {
 }
 
 
-.menu {
-  margin-left: 18%;
-}
-
 header h1 {
-  font-size: 3.5em;
+  font-size: 4.5em;
 }
 
 header {
-    width: 100%;
-  }
+  width: 100%;
+}
+
 
 .banner {
-  height: 600px;
+  height: 735px;
   margin: 0 auto;
-  margin-top: 25px;
   width: 95%;
 }
 
