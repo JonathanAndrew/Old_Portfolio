@@ -51,7 +51,7 @@ Developer @GA in Seattle
 
 
 .menu.shownav {
-  display: inline-block;
+  display: block;
 }
 
 
@@ -432,7 +432,7 @@ label {
 .links {
   list-style-type: none;
   color: #fff;
-  font-size: 4.5em;
+  font-size: 3.5em;
   margin: 0 auto;
   display: inline-block;
 }
@@ -1253,6 +1253,10 @@ nav h3 {
 .middle-box-right {
   width: 605px;
 }
+
+.header.menu {
+  margin-top: 10%;
+}
 }
 
   /**********************************************************************************/
@@ -1298,6 +1302,9 @@ margin-right: 2%;
     width: 100%;
   }
 
+.header.menu {
+  margin-top: 10%;
+}
 
 #twelve img {
   width: 4em;
@@ -1441,6 +1448,9 @@ margin-right: 2%;
     width: 100%;
   }
 
+.header.menu {
+  margin-top: 10%;
+}
 
 #twelve img {
   width: 5em;
@@ -1578,6 +1588,10 @@ body {
 header {
     width: 100%;
   }
+
+.header.menu {
+  margin-top: 10%;
+}
 
 .banner {
     width: 98%;
@@ -1738,8 +1752,8 @@ body {
 }
 
 
-.menu {
-  margin-left: 18%;
+.header.menu {
+  margin-top: 10%;
 }
 
 header h1 {
