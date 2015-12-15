@@ -1,5 +1,5 @@
 $(document).ready(function() {
-  
+
   $(window).scrollTop(0);
 
 //options( 1 - ON , 0 - OFF)  
@@ -56,7 +56,7 @@ $('.links .resume').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 65 );
+  window.scrollTo(anchor.left, anchor.top - menu - 80 );
 
 
 });
@@ -72,7 +72,7 @@ $('.links .portfolio').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 85);
+  window.scrollTo(anchor.left, anchor.top - menu - 95);
 
 
 });
