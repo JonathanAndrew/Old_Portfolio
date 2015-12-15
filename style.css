@@ -66,7 +66,6 @@ Developer @GA in Seattle
 
  body {
   min-width: 705px;
-  padding-top: 75px;
     font-size: 10px;
     line-height: 1.5;
     cursor: default;
@@ -78,7 +77,7 @@ Developer @GA in Seattle
   
 
   header h1 {
-    min-width: 705px;
+    float: left;
     margin-left: 2%;
     margin-bottom: 0px;
     font-size: 6em;
@@ -95,6 +94,10 @@ Developer @GA in Seattle
     display:none;
   }
 
+.menu ul {
+  margin-top: 6%;
+}
+
   .header.menu{
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     margin: 0 auto;
@@ -104,6 +107,7 @@ Developer @GA in Seattle
 
   button.hamburger-menu {
   float: right;
+  margin-top: 2%;
   margin-right: 1%;
   display: block;
   background:none;
@@ -125,8 +129,6 @@ header {
   top: 0;
   margin-bottom: 0px;
   width: 100%;
-  min-height: 75px;
-  min-width: 805px;
   background-color: #002244;
   color: white;
 }
@@ -432,7 +434,7 @@ label {
 
 .banner {
   margin: 0 auto;
-  margin-top: 144px;
+  margin-top: 120px;
   width: 95%;
   text-align: right;
   background: url(images/seattle.jpeg) center no-repeat;
@@ -464,7 +466,6 @@ footer {
   font-family: 'Open+Sans';
   font-size: 1.8em;
   margin: 0 auto;
-  margin-top: 10%;
   text-align: center;
 }
 
@@ -487,6 +488,9 @@ footer {
 
 #contactBox h1 {
   color: #fff;
+  font-size: 4.5em;
+  margin-top: 0px;
+  margin-bottom: 0px;
 }
 
 #portfolioBox ul {
@@ -510,6 +514,7 @@ footer {
   list-style-type: none;
   display: inline-block;
   color: #fff;
+  font-weight: 800;
   font-size: 3em;
   margin-right: 5px;
 }
@@ -1710,26 +1715,13 @@ margin: 0 auto;
 }
 }
   /**********************************************************************************/
-@media screen and (min-width: 1200px) and (max-width: 1300px){
+@media screen and (min-width: 1200px) and (max-width: 1385px){
 
 body {
   margin: 0 auto;
 }
 
 
-button.hamburger-menu {
-  display: none;
-}
-
-.menu {
-  display: block;
-}
-
-.links {
-  margin: 0 auto;
-  display: inline-block;
-  
-}
 
 .container.background {
   width: 95%;
@@ -1775,7 +1767,7 @@ header {
   }
 .banner{
     height: 500px;
-    margin-top: 94px;
+    margin-top: 120px;
 }
 
 #twelve img {
@@ -1871,11 +1863,17 @@ margin-top: 2%;
 }
 
   /**********************************************************************************/
-@media screen and (min-width: 1301px) and (max-width: 1560px){
+@media screen and (min-width: 1386px) and (max-width: 1560px){
 
 body {
     margin: 0 auto;
     padding-top: 0px;
+}
+
+.links {
+  margin: 0 auto;
+  display: inline-block;
+  
 }
 
 .mission-statment {
