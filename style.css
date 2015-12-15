@@ -132,6 +132,21 @@ header {
   color: white;
 }
 
+
+footer {
+  float: left;
+   font-size: 2em;
+   background-color: #002244;
+  color: #fff;
+  border: none;
+  font-weight: 800;
+}
+
+footer h6 {
+  margin-top: 0px;
+  margin-bottom: 0px;
+}
+
 .container {
 width:100%;
 }
@@ -441,13 +456,6 @@ label {
   height: 325px;
   overflow: hidden;
   box-shadow: inset 0 0 5px rgba(0,0,0,.75);
-}
-
-
-footer {
-  background: black;
-  color: white;
-  padding: 2% 3%;
 }
 
 
@@ -1062,13 +1070,6 @@ a img {
 }
 
 
-footer {
-  float: left;
-  margin-top: 10px;
-  margin: 0 auto;
-  height: 100px;
-}
-
 article {
   border: 5px solid #FFFAFA;
 }
@@ -1170,15 +1171,6 @@ nav h3 {
   border-radius: 5px;
 }
 
-h6 {
-  color: #000;
-  text-align: center;
-  background-color: #fff;
-  border: 2px solid black;
-  border-radius: 5px;
-  padding: 15px 15px;
-
-}
 
 #contact {
   background-color: #fff;
