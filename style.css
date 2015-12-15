@@ -59,13 +59,13 @@ Developer @GA in Seattle
 /* BASE STYLES
 /*******************************************/
  html {
-  min-width: 705px;
+  min-width: 805px;
   background-color: #002244;
   height: auto;
  }
 
  body {
-  min-width: 705px;
+  min-width: 805px;
     font-size: 10px;
     line-height: 1.5;
     cursor: default;
