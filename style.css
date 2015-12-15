@@ -74,7 +74,10 @@ Developer @GA in Seattle
 
   }
 
-  
+  header h1 a:hover {
+    color:#69BE28;
+  }
+
 
   header h1 {
     float: left;
@@ -84,6 +87,7 @@ Developer @GA in Seattle
     line-height: 1;
   }
 
+  
   header h1 a {
     color: #fff;
   }
@@ -97,6 +101,11 @@ Developer @GA in Seattle
 .menu ul {
   margin-top: 6%;
 }
+
+.links a:hover {
+    color:#69BE28;
+    text-decoration: underline;
+  }
 
   .header.menu{
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
@@ -1933,7 +1942,7 @@ header {
 .banner {
     height: 550px;
     margin: 0 auto;
-    margin-top: 165px;
+    margin-top: 144px;
     width: 95%;
 }
 
