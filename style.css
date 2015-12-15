@@ -80,7 +80,7 @@ Developer @GA in Seattle
     float: left;
     margin-left: 2%;
     margin-bottom: 0px;
-    font-size: 6em;
+    font-size: 5em;
     line-height: 1;
   }
 
@@ -108,7 +108,6 @@ Developer @GA in Seattle
   button.hamburger-menu {
   float: right;
   margin-top: 2%;
-  margin-right: 1%;
   display: block;
   background:none;
   color: #fff;
@@ -1241,13 +1240,13 @@ h6 {
 #contact .form-row select {
   border: none;
 }
-
+/**********************************************************************************/
 @media screen and (min-width: 515px) and (max-width: 714px){
   .middle-box-foot {
     width: 515px;
   }
   }
-
+/**********************************************************************************/
 @media screen and (min-width: 715px) and (max-width: 869px){
 
 .upper-box-middle-passions {
@@ -1261,7 +1260,6 @@ h6 {
 .middle-box-right {
   width: 605px;
 }
-
 }
 
   /**********************************************************************************/
@@ -1272,7 +1270,7 @@ body {
 }
 
 .hamburger-menu {
-display: none;
+margin-right: 2%;
 }  
 
 
@@ -1313,8 +1311,9 @@ display: none;
   height: 4em;
   margin: 250px 0 5px 5px;
 }
-button.hamburger {
-  display: none;
+
+button.hamburger-menu {
+  margin-right: 2%;
 }
 
 .upper-box-about {
@@ -1399,14 +1398,6 @@ margin-top: 2%;
 
 }
 
-@media screen and (min-width: 950px) and (max-width: 1009px){
-
-  .upper-box-me {
-    margin-left: 6%;
-  }
-
-
-}
   /**********************************************************************************/
 @media screen and (min-width: 1010px) and (max-width: 1099px){
 
@@ -1419,7 +1410,7 @@ body {
 }
 
 .hamburger-menu {
-display: none;
+margin-right: 2%;
 }  
 
 #aboutMeBox.container.background {
@@ -1463,9 +1454,7 @@ display: none;
   height: 5em;
   margin: 472px 0 5px 5px;
 }
-button.hamburger {
-  font-size: 3em;
-}
+
 .upper-box-about {
   font-size: 1.5em;
   width: 163px;
@@ -1607,9 +1596,11 @@ header {
   height: 5em;
   margin: 467px 0 5px 5px;
 }
-button.hamburger {
-  font-size: 3em;
+
+button.hamburger-menu {
+  margin-right: 5%;
 }
+
 .upper-box-about {
   font-size: 1em;
   height: 40px;
@@ -1780,6 +1771,10 @@ header {
 .upper-box-about {
   font-size: 2em;
   width: 205px;
+}
+
+button.hamburger-menu {
+  margin-right: 5%;
 }
 
  h1 {
