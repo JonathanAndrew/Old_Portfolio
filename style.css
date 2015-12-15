@@ -121,7 +121,7 @@ Developer @GA in Seattle
 }
 
 .links a:hover {
-    color:#002244;
+    color:#69BE28;
     text-decoration: underline;
   }
 
@@ -139,6 +139,7 @@ Developer @GA in Seattle
 
   button.hamburger-menu {
   float: right;
+  margin-right: 2%;
   border: none;
   margin-top: 0px;
   padding-top: 0px;
@@ -474,11 +475,11 @@ label {
   width: 100%;
   list-style-type: none;
   color: #fff;
-  width: 850px;
+  width: 600px;
   text-decoration: underline;
   font-size: 6.5em;
   margin: 0 auto;
-  margin-top: 15px;
+  margin-top: 25px;
   letter-spacing: 30px;
 }
 
@@ -507,6 +508,7 @@ label {
 
 .container.background {
   margin: 0 auto;
+  margin-top: 125px;
   width: 95%;
   background-size: cover;
   height: 1750px;
@@ -523,8 +525,6 @@ label {
 }
 
 #resumeBox.container.background{
-  margin: 0 auto;
-  padding: 2% 2%;
   height: 2220px;
 }
 
@@ -535,8 +535,8 @@ label {
 
 #contactBox.container.background {
   margin-top: 0;
+  margin-top: 125px;
   height: auto;
-  padding: 2% 2%;
 }
 
 
@@ -1863,6 +1863,11 @@ button.hamburger-menu {
     background-color: #002244;
     border: none;
     box-shadow: none;
+    text-decoration: none;
+    text-shadow: none;
+    letter-spacing: none;
+    font-size: 3.5em;
+
 }
 
 .header.menu {
@@ -1882,9 +1887,9 @@ button.hamburger-menu {
   height: 1310px;
 }
 
+
 .container.background#resumeBox {
   width: 95%;
-
 }
 
 #portfolioBox.container.background {
@@ -1912,6 +1917,7 @@ header {
 .banner {
     height: 550px;
     margin: 0 auto;
+    margin-top: 200px;
     width: 95%;
 }
 
@@ -1971,7 +1977,8 @@ article img {
 .upper-box-waterfall {
   width: 605px;
   height: 405px;
-  margin: 0 auto; 
+  margin: 0 auto;
+  margin-top: 8% 
 }
 
 .middle-box-low {
@@ -2026,14 +2033,22 @@ button.hamburger-menu {
 .menu {
   display: block;
 }
+.links a:hover {
+    color:#69BE28;
+    text-decoration: underline;
+  }
 
 .links {
-    display: inline;
-    margin: 0 auto;
-    margin-top: 0px;
-    background-color: #002244;
-    border: none;
-    box-shadow: none;
+  display: inline;
+  margin: 0 auto;
+  margin-top: 0px;
+  background-color: #002244;
+  border: none;
+  box-shadow: none;
+  text-decoration: none;
+  text-shadow: none;
+  letter-spacing: none;
+  font-size: 3.5em;
 }
 
 .container.background {
@@ -2081,6 +2096,7 @@ header {
 .banner {
   height: 735px;
   margin: 0 auto;
+  margin-top: 140px;
   width: 95%;
 }
 
@@ -2140,6 +2156,7 @@ article img {
   width: 605px;
   height: 405px;
   margin: 0 auto; 
+  margin-top: 8%;
 }
 
 .middle-box-low {

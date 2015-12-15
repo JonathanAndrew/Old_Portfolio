@@ -25,6 +25,8 @@ $( '.hamburger-menu' ).click(function() {
   // hideNav();
   $('.hamburger-menu').hide();
   $( '.menu' ).addClass('shownav');
+  $('.banner').hide();
+  $('.mission-statment').hide();
 
     
 });
@@ -42,7 +44,7 @@ $('.links .about').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   console.log(menu,anchor);
-  window.scrollTo(anchor.left, anchor.top - menu );
+  window.scrollTo(anchor.left, anchor.top - menu + 275);
   window.scrollTo(0, anchor.top - menu );
   
 
@@ -61,7 +63,7 @@ $('.links .resume').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu +190 );
+  window.scrollTo(anchor.left, anchor.top - menu - 50);
 
 
 });
@@ -80,7 +82,7 @@ $('.links .portfolio').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu + 185 );
+  window.scrollTo(anchor.left, anchor.top - menu - 50 );
 
 
 });
@@ -102,7 +104,7 @@ $('.links .contact').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu + 140 );
+  window.scrollTo(anchor.left, anchor.top - menu);
   
 
 });
