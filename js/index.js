@@ -80,7 +80,7 @@ $('.links .portfolio').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 110 );
+  window.scrollTo(anchor.left, anchor.top - menu + 185 );
 
 
 });
@@ -102,7 +102,7 @@ $('.links .contact').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu - 85 );
+  window.scrollTo(anchor.left, anchor.top - menu + 140 );
   
 
 });
