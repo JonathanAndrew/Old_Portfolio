@@ -135,7 +135,8 @@ header {
 
 footer {
   float: left;
-   font-size: 2em;
+  margin-top: 5%;
+   font-size: 3em;
    background-color: #002244;
   color: #fff;
   border: none;
@@ -1993,6 +1994,7 @@ margin-top: 2%;
 }
 
 .middle-box-foot {
+width: 510px;
 margin: 0 auto;
 margin-top: 2%;
 }
