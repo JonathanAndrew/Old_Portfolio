@@ -93,6 +93,9 @@ Developer @GA in Seattle
     color:#69BE28;
   }
 
+.menu ul {
+  width: 100%;
+}
 
   header h1 {
     /*float: left;*/
@@ -459,9 +462,9 @@ label {
 
 
 .links {
-  -webkit-box-shadow: 10px 10px 0px 0px rgba(105,190,40,1);
-  -moz-box-shadow: 10px 10px 0px 0px rgba(105,190,40,1);
-  box-shadow: 10px 10px 0px 0px rgba(105,190,40,1);
+  -webkit-box-shadow: 15px 15px 0px 0px rgba(105,190,40,1);
+  -moz-box-shadow: 15px 15px 0px 0px rgba(105,190,40,1);
+  box-shadow: 15px 15px 0px 0px rgba(105,190,40,1);
   color: rgb(255, 255, 255);
   font-size: 50px;
   background-color: rgb(85, 147, 194);
@@ -471,10 +474,12 @@ label {
   width: 100%;
   list-style-type: none;
   color: #fff;
-  font-size: 3.5em;
+  width: 850px;
+  text-decoration: underline;
+  font-size: 7.5em;
   margin: 0 auto;
   margin-top: 15px;
-  letter-spacing: 2px;
+  letter-spacing: 30px;
 }
 
 .links a {
