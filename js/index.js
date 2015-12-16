@@ -104,7 +104,7 @@ $('.links .contact').click(function( event ) {
   var href = $(this).attr('href');
   var anchor = $(href).offset();
   var menu = $('.header.menu').height();
-  window.scrollTo(anchor.left, anchor.top - menu);
+  window.scrollTo(anchor.left, anchor.top - menu - 125);
   
 
 });
@@ -236,8 +236,8 @@ $('#close').click(function(){
 // settings
   var $slider = $('.slider'); // class or id of carousel slider
   var $slide = 'li'; // could also use 'img' if you're not using a ul
-  var $transition_time = 2000; // 1 second
-  var $time_between_slides = 2000; // 4 seconds
+  var $transition_time = 1500; // 1.5 second
+  var $time_between_slides = 1500; // 1.5 seconds
 
   function slides(){
     return $slider.find($slide);
@@ -602,9 +602,8 @@ $(function(){
 
       //Place the child elements to their original locations.
       refreshChildPosition();
-      
-      //Set the event handlers for buttons.
-      $('.btnNext').click(function(){
+      // swipe right
+       $('#carousel-wedding').swiperight(function(){
         clickCount++;
         
         //Animate the slider to left as item width 
@@ -617,6 +616,21 @@ $(function(){
           lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
         });
       });
+
+      // Set the event handlers for buttons.
+      // $('.btnNext').click(function(){
+      //   clickCount++;
+        
+      //   //Animate the slider to left as item width 
+      //   carousel.finish().animate({
+      //     left : '-='+itemWidth
+      //   },300, function(){
+      //     //Find the first item and append it as the last item.
+      //     lastItem = carousel.find('li:first');
+      //     lastItem.remove().appendTo(carousel);
+      //     lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
+      //   });
+      // });
       
       $('.btnPrevious').click(function(){
         clickCount--;
@@ -643,5 +657,5 @@ $(function(){
         });
       }
     });
-
+  
 });
