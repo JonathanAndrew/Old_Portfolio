@@ -602,8 +602,9 @@ $(function(){
 
       //Place the child elements to their original locations.
       refreshChildPosition();
-      // swipe right
-       $('#carousel-wedding').swiperight(function(){
+      
+      //Set the event handlers for buttons.
+      $('.btnNext').click(function(){
         clickCount++;
         
         //Animate the slider to left as item width 
@@ -616,21 +617,6 @@ $(function(){
           lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
         });
       });
-
-      // Set the event handlers for buttons.
-      // $('.btnNext').click(function(){
-      //   clickCount++;
-        
-      //   //Animate the slider to left as item width 
-      //   carousel.finish().animate({
-      //     left : '-='+itemWidth
-      //   },300, function(){
-      //     //Find the first item and append it as the last item.
-      //     lastItem = carousel.find('li:first');
-      //     lastItem.remove().appendTo(carousel);
-      //     lastItem.css('left', ((carouselChild.length-1)*(itemWidth))+(clickCount*itemWidth));
-      //   });
-      // });
       
       $('.btnPrevious').click(function(){
         clickCount--;
@@ -657,5 +643,5 @@ $(function(){
         });
       }
     });
-  
+
 });
