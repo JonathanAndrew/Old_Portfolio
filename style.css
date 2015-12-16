@@ -1608,18 +1608,18 @@ header {
 
 
 .upper-box-me img {
-  width: 400px;
+  width: 500px;
 }
 
 .upper-box-me {
-  width: 405px;
+  width: 505px;
   float: left;
   margin-left: 1%;
   margin-bottom: 2%;
 }
 
 .upper-box-middle-hi h2 {
-  width: 530px;
+  width: 580px;
   margin-top: 6%;
 }
 
@@ -1629,7 +1629,7 @@ header {
   width: 475px;
   float: right;
   margin-left: 0px;
-  margin-right: 5%;
+  margin-right: 7%;
 }
 
 .upper-box-middle-passions {
@@ -1642,13 +1642,13 @@ header {
 }
 
 #waterfall {
-  width: 400px;
+  width: 500px;
 }
 
 .upper-box-waterfall {
-  width: 405px;
+  width: 505px;
   margin: 0 auto;
-  margin-top: 2%;
+  margin-top: 41%;
 }
 
 .middle-box-low {
@@ -1771,20 +1771,18 @@ article img {
 .upper-box-me {
   float: left;
   width: 505px;
-  margin-left: 1%;
   margin-bottom: 2%;
 }
 
 .upper-box-middle-hi {
   margin-top: 9%;
-  margin-right: 8%;
-  font-size: 1.3em;
+  font-size: 1.1em;
   float: right;
   margin-left: 0px;
 }
 
 .upper-box-middle-hi h2 {
- width: 505px;
+ width: 636px;
 }
 
 .upper-box-middle-passions {
@@ -1803,6 +1801,7 @@ article img {
   width: 605px;
   height: 405px;
   margin: 0 auto; 
+  margin-top: 38%;
 }
 
 .middle-box-low {
@@ -1814,6 +1813,7 @@ margin-top: 2%;
 .middle-box-foot {
 margin: 0 auto;
 margin-top: 2%;
+width: 515px;
 }
 
 .middle-box-foot-minor {
@@ -1979,7 +1979,7 @@ article img {
   width: 605px;
   height: 405px;
   margin: 0 auto;
-  margin-top: 8% 
+  margin-top: 34% 
 }
 
 .middle-box-low {
@@ -1989,7 +1989,7 @@ margin-top: 2%;
 }
 
 .middle-box-foot {
-width: 510px;
+width: 515px;
 margin: 0 auto;
 margin-top: 2%;
 }
@@ -2173,6 +2173,7 @@ margin-top: 2%;
 .middle-box-foot {
 margin: 0 auto;
 margin-top: 2%;
+width:515px;
 }
 
 .middle-box-foot-minor {
