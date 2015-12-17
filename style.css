@@ -101,6 +101,7 @@ Developer @GA in Seattle
     /*float: left;*/
     font-family: 'Vollkorn';
     margin-left: 2%;
+    margin-top: 1%;
     margin-bottom: 0px;
     font-size: 5em;
     line-height: 1;
@@ -129,6 +130,7 @@ Developer @GA in Seattle
 
 
   .header.menu{
+    float: right;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-align: center;
     font-size: 1em;
@@ -160,6 +162,7 @@ Developer @GA in Seattle
 header {
   position: fixed;
   top: 0;
+  height: 85px;
   margin-bottom: 0px;
   width: 100%;
   background-color: #002244;
@@ -466,12 +469,12 @@ label {
 .links {
   -webkit-box-shadow: 15px 15px 0px 0px rgba(105,190,40,1);
   -moz-box-shadow: 15px 15px 0px 0px rgba(105,190,40,1);
-  box-shadow: 15px 15px 0px 0px rgba(105,190,40,1);
+  box-shadow: 7px 6px 0px 0px rgba(105,190,40,1);
   color: rgb(255, 255, 255);
   font-size: 50px;
   background-color: rgb(85, 147, 194);
   text-shadow: rgb(204, 204, 204) 0px 1px 0px, rgb(201, 201, 201) 0px 2px 0px, rgb(187, 187, 187) 0px 3px 0px, rgb(185, 185, 185) 0px 4px 0px, rgb(170, 170, 170) 0px 5px 0px, rgba(0, 0, 0, 0.0980392) 0px 6px 1px, rgba(0, 0, 0, 0.0980392) 0px 0px 5px, rgba(0, 0, 0, 0.298039) 0px 1px 3px, rgba(0, 0, 0, 0.14902) 0px 3px 5px, rgba(0, 0, 0, 0.2) 0px 5px 10px, rgba(0, 0, 0, 0.2) 0px 10px 10px, rgba(0, 0, 0, 0.0980392) 0px 20px 20px;
-  background-color: #A5ACAF;
+  background-color: rgba(0,0,0,.4);
   border: 2px solid #fff;
   width: 100%;
   list-style-type: none;
@@ -496,7 +499,7 @@ label {
 
 .banner {
   margin: 0 auto;
-  margin-top: 200px;
+  margin-top: 85px;
   width: 95%;
   text-align: right;
   background: url(images/seattle.jpeg) center no-repeat;
@@ -509,7 +512,6 @@ label {
 
 .container.background {
   margin: 0 auto;
-  margin-top: 125px;
   width: 95%;
   background-size: cover;
   height: 1750px;
@@ -536,7 +538,6 @@ label {
 
 #contactBox.container.background {
   margin-top: 0;
-  margin-top: 125px;
   height: auto;
 }
 
@@ -1238,7 +1239,7 @@ nav h3 {
 
 #contact .form-row label {
   display: inline-block;
-  font-size: 15px;
+  font-size: 2em;
   width: 170px;
 }
 
@@ -1247,12 +1248,12 @@ nav h3 {
 }
 
 #contact .form-row .photography{
-  width: 85px;
+  width: 95px;
   margin-right: 2%
 }
 
 #contact .form-row .videography{
-  width: 80px;
+  width: 100px;
   margin-right: 2%
 }
 
@@ -1267,6 +1268,7 @@ nav h3 {
 
 #contact .form-row input {
   width: 300px;
+  font-size: 1.5em;
   border: none;
   border-bottom: 2px solid #000;
 }
