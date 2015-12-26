@@ -56,13 +56,13 @@ Developer @GA in Seattle
 /* BASE STYLES
 /*******************************************/
  html {
-  min-width: 805px;
+  min-width: 375px;
   background-color: #002244;
   height: auto;
  }
 
  body {
-  min-width: 805px;
+  min-width: 375px;
     font-size: 10px;
     line-height: 1.5;
     cursor: default;
@@ -98,12 +98,13 @@ Developer @GA in Seattle
 }
 
   header h1 {
-    /*float: left;*/
+    float: left;
+    width: 315px;
     font-family: 'Vollkorn';
     margin-left: 2%;
     margin-top: 1%;
     margin-bottom: 0px;
-    font-size: 5em;
+    font-size: 2.4em;
     line-height: 1;
   }
 
@@ -148,7 +149,7 @@ Developer @GA in Seattle
   padding-top: 0px;
   background:none;
   color: #fff;
-  font-size:7em;
+  font-size:4em;
   font-weight:bold;
   cursor:pointer;
 }
@@ -162,7 +163,7 @@ Developer @GA in Seattle
 header {
   position: fixed;
   top: 0;
-  height: 85px;
+  height: 70px;
   margin-bottom: 0px;
   width: 100%;
   background-color: #002244;
@@ -499,12 +500,12 @@ label {
 
 .banner {
   margin: 0 auto;
-  margin-top: 85px;
-  width: 95%;
+  margin-top: 70px;
+  width: 375px;
   text-align: right;
-  background: url(images/seattle.jpeg) center no-repeat;
+  background: url(images/seattle.jpeg);
   background-size: cover;
-  height: 325px;
+  height: 152px;
   overflow: hidden;
   box-shadow: inset 0 0 5px rgba(0,0,0,.75);
 }
@@ -520,9 +521,10 @@ label {
 }
 
 .mission-statment {
+  width: 365px;
   color: rgba(255,255,255, .6);
   font-family: 'Open+Sans';
-  font-size: 1.8em;
+  font-size: 1em;
   margin: 0 auto;
   text-align: center;
 }
@@ -569,19 +571,19 @@ label {
 }
 
 #socialmedia img {
-  float: right;
+  float: left;
   border-radius: 10px;
-  margin-left: 0px;
-  width: 5em;
-  height: 5em;
+  margin-left: 15px;
+  width: 4em;
+  height: 4em;
   border: 2px solid #002244;
   background-color: #69BE28;
   box-shadow: 3px 2px rgba(0,34,68,.9);
 }
 
 #socialmedia li {
-margin-top: 2%;
-margin-right: 2%;
+margin-top: 1%;
+margin-right: 1%;
 display: inline-block;
 text-decoration: none;
 }
@@ -592,7 +594,7 @@ text-decoration: none;
   width: 3em;
   height: 3em;
   background-color: #fff:;
-  margin: 250px 0 0 15px;
+  margin: 70px 0 0 5px;
   border: 2px solid #69BE28;
 }
 
@@ -1276,12 +1278,26 @@ nav h3 {
 #contact .form-row select {
   border: none;
 }
+
 /**********************************************************************************/
 @media screen and (min-width: 515px) and (max-width: 714px){
   .middle-box-foot {
     width: 515px;
   }
+
+  .banner {
+    height: 211px;
+    width: auto;
   }
+
+  #twelve img {
+    margin: 130px 0 0 5px;
+  }
+
+  .mission-statment {
+    width: 85%;
+  }
+}
 /**********************************************************************************/
 @media screen and (min-width: 715px) and (max-width: 869px){
 
@@ -1296,6 +1312,19 @@ nav h3 {
 .middle-box-right {
   width: 605px;
 }
+
+.banner {
+  width: auto;
+  height: 250px;
+}
+
+.mission-statment {
+  width: 82%;
+}
+
+#twelve img {
+  margin: 165px 0 0 5px;
+}
 }
 
   /**********************************************************************************/
@@ -1305,7 +1334,10 @@ body {
   margin: 0 auto;
 }
 
-
+header h1 {
+  font-size: 3.5em;
+  width: 500px;
+}
 
 .container.background#aboutMeBox {
   margin-left: 5%;
@@ -1341,7 +1373,7 @@ body {
 #twelve img {
   width: 4em;
   height: 4em;
-  margin: 250px 0 5px 5px;
+  margin: 300px 0 5px 5px;
 }
 
 
@@ -1408,6 +1440,12 @@ margin-top: 2%;
 
 .banner {
   height: 400px;
+  width: auto;
+}
+
+.mission-statment {
+  width: 85%;
+  font-size: 1.2em;
 }
 
 }
@@ -1419,8 +1457,14 @@ body {
   margin: 0 auto;
 }
 
+header h1 {
+  font-size: 4em;
+  width: 600px;
+}
+
 .mission-statment {
-  width: 700px;
+  width: auto;
+  font-size: 1.5em;
 }
 
 
@@ -1456,7 +1500,7 @@ body {
 #twelve img {
   width: 5em;
   height: 5em;
-  margin: 472px 0 5px 5px;
+  margin: 292px 0 5px 5px;
 }
 
 .upper-box-about {
@@ -1465,9 +1509,9 @@ body {
   height: 51px;
 }
 
- h1 {
+/* h1 {
   font-size: 1.5em;
-}
+}*/
 
 
 .upper-box-me img {
@@ -1541,6 +1585,7 @@ width: 200px;
 
 .banner {
   height: 400px;
+  width: auto;
 }
 
 }
@@ -1552,7 +1597,8 @@ body {
 }
 
 .mission-statment {
-  width: 700px;
+  width: 90%;
+  font-size: 2em;
 }
 
 .container.background#aboutMeBox {
@@ -1579,6 +1625,11 @@ body {
 header {
     width: 100%;
   }
+
+header h1 {
+  font-size: 4em;
+  width: 600px;
+}
 
 
 .banner {
@@ -1734,11 +1785,13 @@ body {
 }
 
 .mission-statment {
-  width: 700px;
+  width: 85%;
+  font-size: 2em;
 }
 
 header h1 {
-  font-size: 5em;
+    font-size: 5em;
+    width: 700px;
 }
 
 header {
@@ -1747,6 +1800,7 @@ header {
 
 .banner{
     height: 500px;
+    width: auto;
 }
 
 #twelve img {
@@ -1840,6 +1894,12 @@ margin-top: 2%;
 .upper-box-summary h3 {
   font-size: 2.2em;
 }
+
+#socialmedia img {
+  width: 5em;
+  height: 5em;
+}
+
 }
 
   /**********************************************************************************/
@@ -1852,7 +1912,8 @@ body {
 
 
 .mission-statment {
-  width: 700px;
+  width: 90%;
+  font-size: 2.5em;
 }
 
 button.hamburger-menu {
@@ -1911,10 +1972,12 @@ button.hamburger-menu {
 header h1 {
   font-size: 5em;
   margin-left: 2%;
+  width: 700px;
 }
 
 header {
     width: 100%;
+    height: 200px;
   }
 
 .banner {
@@ -1924,10 +1987,15 @@ header {
     width: 95%;
 }
 
+#socialmedia img {
+  width: 5em;
+  height: 5em;
+}
+
 #twelve img {
   width: 5em;
   height: 5em;
-  margin: 467px 0 5px 5px;
+  margin: 430px 0 5px 5px;
 }
 
 
@@ -2093,6 +2161,7 @@ button.hamburger-menu {
 
 header h1 {
   font-size: 4.5em;
+  width: 750px;
 }
 
 header {
@@ -2110,7 +2179,7 @@ header {
 #twelve img {
   width: 5em;
   height: 5em;
-  margin: 467px 0 5px 5px;
+  margin: 430px 0 5px 5px;
 }
 
 

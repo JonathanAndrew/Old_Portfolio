@@ -25,6 +25,7 @@ $( '.hamburger-menu' ).click(function() {
   // hideNav();
   $('.hamburger-menu').hide();
   $( '.menu' ).addClass('shownav');
+  $('.logo').hide();
   $('.banner').hide();
   $('.mission-statment').hide();
 
