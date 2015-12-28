@@ -99,10 +99,10 @@ Developer @GA in Seattle
 
   header h1 {
     float: left;
-    width: 315px;
+    width: 400px;
     font-family: 'Vollkorn';
     margin-left: 2%;
-    margin-top: 1%;
+    margin-top: 3%;
     margin-bottom: 0px;
     font-size: 2.4em;
     line-height: 1;
@@ -119,9 +119,9 @@ Developer @GA in Seattle
   }
 
 
-.links a:visited {
+/*.links a:visited {
   color:#69BE28;
-}
+}*/
 
 .links a:hover {
     color:#69BE28;
@@ -131,7 +131,6 @@ Developer @GA in Seattle
 
 
   .header.menu{
-    float: right;
     font-family: 'Cabin', Helvetica, Arial, sans-serif;
     text-align: center;
     font-size: 1em;
@@ -1791,7 +1790,7 @@ body {
 
 header h1 {
     font-size: 5em;
-    width: 700px;
+    width: 800px;
 }
 
 header {
@@ -1972,7 +1971,7 @@ button.hamburger-menu {
 header h1 {
   font-size: 5em;
   margin-left: 2%;
-  width: 700px;
+  width: 800px;
 }
 
 header {
